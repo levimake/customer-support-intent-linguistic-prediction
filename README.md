@@ -4,8 +4,9 @@ Bitext Sample Customer Service Training Dataset for English
 Overview
 --------
 This dataset contains example utterances and their corresponding intents from
-the Customer Service domain. The data can be used to train intent recognition models
-Natural Language Understanding (NLU) platforms.
+Bitext's pre-built Customer Service domain (which itself covers common intents present
+across Bitext's 20 pre-built domains). The data can be used to train and evaluate
+intent recognition models Natural Language Understanding (NLU) platforms.
 
 The dataset covers the "Customer Service" domain and includes 27 intents
 grouped in 11 categories. These intents have been selected from Bitext's collection
@@ -14,10 +15,10 @@ that are common across domains. See below for a full list of categories and inte
 
 Utterances
 ----------
-The dataset contains over 8,000 utterances, with a varying number of utterances
-per intent, including language register variations such as politeness, colloquial,
-swearing, indirect style... To select the utterances, we use stratified sampling
-to generate a dataset with a general user language register profile.
+The dataset contains 8,175 training utterances and 259,373 evaluating utterance, 
+with a varying number of utterances per intent, including language register variations 
+such as politeness, colloquial, swearing, indirect style... To select the utterances, 
+we use stratified sampling to generate a dataset with a general user language register profile.
 
 The dataset also reflects commonly occurring linguistic phenomena
 of real-life chatbots, such as:
