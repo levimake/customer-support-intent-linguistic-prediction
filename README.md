@@ -6,7 +6,7 @@ Overview
 This dataset contains example utterances and their corresponding intents from
 Bitext's pre-built Customer Service domain (which itself covers common intents present
 across Bitext's 20 pre-built domains). The data can be used to train and evaluate
-intent recognition models Natural Language Understanding (NLU) platforms.
+intent recognition models on Natural Language Understanding (NLU) platforms.
 
 The dataset covers the "Customer Service" domain and includes 27 intents
 grouped in 11 categories. These intents have been selected from Bitext's collection
