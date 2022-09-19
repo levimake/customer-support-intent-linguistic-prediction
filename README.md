@@ -15,7 +15,7 @@ that are common across domains. See below for a full list of categories and inte
 
 Utterances
 ----------
-The dataset contains 8,175 training utterances and 259,373 evaluating utterance, 
+The dataset contains 8,175 training utterances and 259,373 evaluation utterances, 
 with a varying number of utterances per intent, including language register variations 
 such as politeness, colloquial, swearing, indirect style... To select the utterances, 
 we use stratified sampling to generate a dataset with a general user language register profile.
