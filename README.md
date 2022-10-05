@@ -1,16 +1,25 @@
 Bitext - Customer Service Tagged Training Dataset for Intent Detection
-======================================================================
+========================================================================
 
 Overview
 --------
 
-The dataset can be used to train intent recognition models on Natural Language Understanding (NLU) platforms: LUIS, Dialogflow, Lex, RASA and more.
-The dataset covers the "Customer Service" domain and includes:
+This dataset can be used to train intent recognition models on Natural Language Understanding (NLU) platforms: LUIS, Dialogflow, Lex, RASA and any platform that accepts text as input.
+
+The dataset is parallel to our Evaluation dataset (see Customer Service Tagged Evaluation Dataset for Intent Detection). Both datasets can be used in conjunction to first train then evaluate the accuracy provided by training. The main difference between the two datasets is the number of utterances:
+
+  - The training dataset contains about 8,000 utterances (about 300 per intent), because most platforms limit the number of utterances that can be used for training 
+  - The evaluation dataset contains about 260,000 utterances (about 10,000 per intent), since there is no limit in the amount of evaluation data that can be used in any platform
+
+For the rest, both datasets share the rest of the specifications, so they can be used in conjunction. The training dataset has the following specs, shared with the evaluation dataset:
+
+  - Customer Service domain 
   - 11 categories or intent groups
   - 27 intents assigned to one of the 11 categories
-  - 8,175 utterances assigned to the 27 intents
+  - 260,000 utterances assigned to the 27 intents
 
 Additionally, each utterance is enriched with tags that indicate the type of language variation that the utterance expresses. Examples include:
+
   - The tag “COLLOQUIAL” indicates that the utterance contains informal expressions: “can u close my account”
   - The tag “INTERROGATIVE” indicates that the utterance is a question: “how do I open an account”
   - The tag “OFFENSIVE” indicates that the utterance contains offensive expressions: “open my f****** account”
@@ -25,11 +34,10 @@ Utterances and Linguistic Tags
 ------------------------------------
 The dataset contains 8,175 training utterances, with between 290 and 324 utterances per intent. 
 
-The dataset has been split into training (80%), validation (10%) and testing (10%) sets, preserving the distribution of intents and linguistic phenomena.
-
 The dataset also reflects commonly occurring linguistic phenomena of real-life chatbots, such as: spelling mistakes, run-on words, punctuation errors…
 
 Each entry in the dataset contains the following four fields:
+
   - utterance: a user utterance from the Customer Service domain
   - intent: the intent corresponding to the user utterance
   - category: the high-level semantic category for the intent
@@ -59,6 +67,7 @@ These tags indicate the type of language variation that the utterance expresses.
 Categories and Intents
 ----------------------
 The categories and intents covered by the dataset are:
+
   - ACCOUNT: create_account, delete_account, edit_account, recover_password, registration_problems, switch_account
   - CANCELLATION_FEE: check_cancellation_fee
   - CONTACT: contact_customer_service, contact_human_agent
