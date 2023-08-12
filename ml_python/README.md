@@ -13,3 +13,12 @@ Multiclass and multilabel classifications are two familiar tasks to most data ss
 - Response Time requirement: We must predict everything within one second, so we call fewer models as possible.
 
 ### 1.2 Examples
+- Given image of an animal:
+    - Predict its species {cat, dog, lion, giraffe}: Multiclass, as it will be either one of them; cannot be more than one.
+    - Predict its health condition {healthy, alive, dead, critical, unhealthy}: Multilabel, as it can be more than conditions at once.
+        - A dog can be healthy and alive at the same time
+        - A cat can be alive, unhealthy and critical at the same time.
+
+- Given response from a survey:
+    - Predict the rating: Multiclass, one class between 1 to 5 {1, 2, 3, 4, 5}
+    - Predict the emotions: Multilabels {joy, happiness, sadness, anger, ...}
