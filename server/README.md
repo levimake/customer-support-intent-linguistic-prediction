@@ -7,7 +7,7 @@ pip install torch transformers httpie uvicorn pydantic fastapi
 
 ## Running the server
 ```
-uvicorn api:app
+uvicorn api:app --reload
 ```
 
 ## Example Requests
