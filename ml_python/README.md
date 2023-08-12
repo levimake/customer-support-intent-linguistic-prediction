@@ -62,3 +62,6 @@ Here is a sample row of the dataset in JSON form (for readability; the original 
 
 For more information on the process, please refer to the [notebook](./model_creation.ipynb)
 
+# 3. References
+[https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc]("https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc")
+
