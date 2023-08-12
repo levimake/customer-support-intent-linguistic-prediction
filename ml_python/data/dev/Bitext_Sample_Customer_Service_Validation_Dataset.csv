@@ -1,0 +1,811 @@
+utterance,intent,entity_type,entity_value,start_offset,end_offset,category,tags
+"I can't afford purchase 113542617735902, can you cancel it?",cancel_order,order_id,113542617735902,24,39,ORDER,BCILN
+what do I have to do to cancel purchase 732201349959?,cancel_order,order_id,732201349959,40,52,ORDER,BIL
+havew a question about cancelling order 370795561790,cancel_order,order_id,370795561790,40,52,ORDER,BQZ
+i dont know how i can cancel order 370795561790,cancel_order,order_id,370795561790,35,47,ORDER,BQ
+I need help  with canceling order 00004587345,cancel_order,order_id,00004587345,34,45,ORDER,BZ
+I need assistance to cancel order 370795561790,cancel_order,order_id,370795561790,34,46,ORDER,B
+"I want to cancel purchase 00004587345, how can I do it?",cancel_order,order_id,00004587345,26,37,ORDER,BCIL
+have a question about canceling purchase 370795561790,cancel_order,order_id,370795561790,41,53,ORDER,BLQ
+cancel purhase 00004587345,cancel_order,order_id,00004587345,15,26,ORDER,BLZ
+canceling purchase 370795561790,cancel_order,order_id,370795561790,19,31,ORDER,BKL
+can you help me cancel purchase 113542617735902?,cancel_order,order_id,113542617735902,32,47,ORDER,BIL
+assistance with canceling purchase 00123842,cancel_order,order_id,00123842,35,43,ORDER,BL
+have a question about cancelling order 370795561790,cancel_order,order_id,370795561790,39,51,ORDER,BQ
+can you help me canceling order 732201349959?,cancel_order,order_id,732201349959,32,44,ORDER,BI
+cancel order,cancel_order,,,,,ORDER,BK
+I do not know how to cancel order 00123842,cancel_order,order_id,00123842,34,42,ORDER,BE
+I need assistance with canceling purchase 113542617735902,cancel_order,order_id,113542617735902,42,57,ORDER,BL
+can you help me canceling oreder 00123842?,cancel_order,order_id,00123842,33,41,ORDER,BIZ
+i can no longer afford purchase 00123842,cancel_order,order_id,00123842,32,40,ORDER,BLNQ
+I'm trying to cancel roder 370795561790,cancel_order,order_id,370795561790,27,39,ORDER,BQZ
+how do I cancel purchase 113542617735902?,cancel_order,order_id,113542617735902,25,40,ORDER,BIL
+need assistance to cancel purchase 732201349959,cancel_order,order_id,732201349959,35,47,ORDER,BLQ
+i ened assistance canceling order 00123842,cancel_order,order_id,00123842,34,42,ORDER,BQZ
+i need help with cancelling order 113542617735902,cancel_order,order_id,113542617735902,34,49,ORDER,BQ
+cancelo purchase 732201349959,cancel_order,order_id,732201349959,17,29,ORDER,BKLZ
+i need assistance canceling order 370795561790,cancel_order,order_id,370795561790,34,46,ORDER,BQZ
+problem with cancelling purchase 370795561790,cancel_order,order_id,370795561790,33,45,ORDER,BL
+assistance cancelling order 732201349959,cancel_order,order_id,732201349959,28,40,ORDER,B
+I have got to cancel purchase 00004587345,cancel_order,order_id,00004587345,30,41,ORDER,BL
+I can no longer affrd purchase 370795561790,cancel_order,order_id,370795561790,31,43,ORDER,BLNZ
+cancel ordedr 00004587345,cancel_order,order_id,00004587345,14,25,ORDER,BKZ
+help with canceling purchase 370795561790,cancel_order,order_id,370795561790,29,41,ORDER,BL
+cancel ordedr 00123842,cancel_order,order_id,00123842,14,22,ORDER,BKZ
+cancelling order 370795561790,cancel_order,order_id,370795561790,17,29,ORDER,BK
+I want help to cancel purchase 370795561790,cancel_order,order_id,370795561790,31,43,ORDER,BL
+want help adding a goddamn item to purchase 113542617735902,change_order,order_id,113542617735902,44,59,ORDER,BLQW
+how to addd an item to order 732201349959,change_order,order_id,732201349959,29,41,ORDER,BIQZ
+can I swap something of purchase 00123842?,change_order,order_id,00123842,33,41,ORDER,BIL
+can i switch a product ofpurchase 370795561790,change_order,order_id,370795561790,34,46,ORDER,BILQZ
+I have to swap an article of order 00004587345,change_order,order_id,00004587345,35,46,ORDER,BL
+"I made a mistake, I need to change purchase 113542617735902",change_order,order_id,113542617735902,44,59,ORDER,BCL
+help me change an article of order 00004587345,change_order,order_id,00004587345,35,46,ORDER,BL
+newd to change something of order 00123842,change_order,order_id,00123842,34,42,ORDER,BQZ
+"I need to change an item of purchase 00004587345, help me",change_order,order_id,00004587345,37,48,ORDER,BCL
+need help to remove an item from order 370795561790,change_order,order_id,370795561790,39,51,ORDER,BQ
+need help with corrcting order 00004587345,change_order,order_id,00004587345,31,42,ORDER,BLQZ
+I want help to correct purchase 113542617735902,change_order,order_id,113542617735902,32,47,ORDER,BL
+need help with swapping an item of order 370795561790,change_order,order_id,370795561790,41,53,ORDER,BLQ
+problem with removing an article from order 370795561790,change_order,order_id,370795561790,44,56,ORDER,BL
+"I made a mistake, assistance changing purchase 00004587345",change_order,order_id,00004587345,47,58,ORDER,BCL
+I need help to change an product of order 00123842,change_order,order_id,00123842,42,50,ORDER,BLZ
+I need to change some items of purchase 370795561790,change_order,order_id,370795561790,40,52,ORDER,BLM
+wanna switch an item of  order 370795561790 i need help,change_order,order_id,370795561790,31,43,ORDER,BCLQZ
+remove item from order 732201349959,change_order,order_id,732201349959,23,35,ORDER,BK
+I have problems with removing some items from order 00123842,change_order,order_id,00123842,52,60,ORDER,BM
+how to swap an article of purchase 732201349959,change_order,order_id,732201349959,35,47,ORDER,BILQ
+could you help me to change an item of an order?,change_order,,,,,ORDER,BIP
+I want help to switch an item of purchase 732201349959,change_order,order_id,732201349959,42,54,ORDER,BL
+what do I have to do to modify purchase 113542617735902?,change_order,order_id,113542617735902,40,55,ORDER,BIL
+add item to order,change_order,,,,,ORDER,BK
+I want to change some articles of order 00004587345,change_order,order_id,00004587345,40,51,ORDER,BLM
+assistance to add several products to order 00004587345,change_order,order_id,00004587345,44,55,ORDER,BLM
+i have an issue trying to modify my delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLQ
+I have a problem trying to modify the shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+support trying to edit the shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+help to omdify the delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLZ
+I havechosen a wrong address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLZ
+I need assistance editing my address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+could you tell me about an address modification?,change_shipping_address,,,,,SHIPPING_ADDRESS,BILP
+i submitted an wrong address how do i edit it,change_shipping_address,,,,,SHIPPING_ADDRESS,BCILQZ
+issue changing shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BK
+I submitted a wrong address by mistake,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+I have troubles trying to modify the shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+there are issues changing the delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+help trying to correct the address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+I do not know what to do to correct the delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BEL
+I want information about editing the delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+how do I edit my address?,change_shipping_address,,,,,SHIPPING_ADDRESS,BIL
+I want assistance modifying my delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+support trying to change my address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+"my shipping address has changed, can you help me modify it?",change_shipping_address,,,,,SHIPPING_ADDRESS,BCIL
+how to modify the delivery address?,change_shipping_address,,,,,SHIPPING_ADDRESS,BIL
+I want assistance trying to edit the address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+need assistance to correct my delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLQ
+there is an error trying to modify my shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+can you tel me about correcting the delivery address?,change_shipping_address,,,,,SHIPPING_ADDRESS,BILZ
+how do I change myshipping address?,change_shipping_address,,,,,SHIPPING_ADDRESS,BIZ
+issue modifying delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BKL
+need supports trying to edit my delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLMQ
+I need information about changing the shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,B
+"the address changed, I need assistance to modify it",change_shipping_address,,,,,SHIPPING_ADDRESS,BCL
+how to edit the shipping address ?,change_shipping_address,,,,,SHIPPING_ADDRESS,BILZ
+I want supports changing my delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+I need information about modifying my shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BL
+I have problems trying to correct the shipping address,change_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+"I have got to change my address, can I get some help?",change_shipping_address,,,,,SHIPPING_ADDRESS,BCIL
+i do not know what i need to do to edit the delivery address,change_shipping_address,,,,,SHIPPING_ADDRESS,BELQ
+"I chose a wrong bloody address, I want to modify it",change_shipping_address,,,,,SHIPPING_ADDRESS,BCLW
+i have got to update the address how can i do ti,change_shipping_address,,,,,SHIPPING_ADDRESS,BCILQZ
+"I want to check the early termination penalty, help me",check_cancellation_fee,,,,,CANCELLATION_FEE,BCL
+I don't know how I can see the early termination penalties,check_cancellation_fee,,,,,CANCELLATION_FEE,BLM
+where do i see the withdrawal fee,check_cancellation_fee,,,,,CANCELLATION_FEE,BILQ
+i need assistance to see the withdrawal charge,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+i cant find the cancellation charge could ya help me,check_cancellation_fee,,,,,CANCELLATION_FEE,BCILPQ
+could I check the withdrawal fees ?,check_cancellation_fee,,,,,CANCELLATION_FEE,BILMPZ
+help me see the termination fees,check_cancellation_fee,,,,,CANCELLATION_FEE,BLM
+show me the early termination fees,check_cancellation_fee,,,,,CANCELLATION_FEE,BLM
+can uhelp me to see the early termination charges,check_cancellation_fee,,,,,CANCELLATION_FEE,BILMQ
+i need assistance checking the terminatrion fee,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQZ
+what is the early exit charged,check_cancellation_fee,,,,,CANCELLATION_FEE,BILQ
+need to check the cancellation fees,check_cancellation_fee,,,,,CANCELLATION_FEE,BMQ
+need assistance seeing the withdrawal fees,check_cancellation_fee,,,,,CANCELLATION_FEE,BLMQ
+i dont know what to do to see the termination fees,check_cancellation_fee,,,,,CANCELLATION_FEE,BLMQ
+I try to check the termination fee,check_cancellation_fee,,,,,CANCELLATION_FEE,BL
+I want assistance to check the withdrawal fee,check_cancellation_fee,,,,,CANCELLATION_FEE,BL
+need help to see the withdrawal penalty,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+"I need to see the termination charges, help me",check_cancellation_fee,,,,,CANCELLATION_FEE,BCLM
+need help seeing the early termination penalty,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+"I can't find the early termination charge, help me",check_cancellation_fee,,,,,CANCELLATION_FEE,BCL
+want assistance to check the cancellation charge,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+can you help me to check the withdrawal charges?,check_cancellation_fee,,,,,CANCELLATION_FEE,BILM
+i dont know what to do to check the early exit charge,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+I need to check the early exit charge,check_cancellation_fee,,,,,CANCELLATION_FEE,BL
+can you help me check the early termination penalties ?,check_cancellation_fee,,,,,CANCELLATION_FEE,BILMZ
+I do not know what to do to check the withdrawal penalty,check_cancellation_fee,,,,,CANCELLATION_FEE,BEL
+check cancellation fee,check_cancellation_fee,,,,,CANCELLATION_FEE,BK
+is it possible to check the termination penalties?,check_cancellation_fee,,,,,CANCELLATION_FEE,BILM
+I'm trying to see the cancellation charge,check_cancellation_fee,,,,,CANCELLATION_FEE,BLQ
+i need help locating my invoice from Ms. Hawkings,check_invoice,person_name,Ms. Hawkings,37,49,INVOICE,BLQ
+I do not know how I can check bill #37777,check_invoice,invoice_id,#37777,35,41,INVOICE,BEL
+I do not know how I can find the invoices ffrom Anna Freeman,check_invoice,person_name,Anna Freeman,48,60,INVOICE,BEMZ
+where could I give a quick look at bill #85632?,check_invoice,invoice_id,#85632,40,46,INVOICE,BILP
+how casn i see my invoices from Mr. Smith,check_invoice,person_name,Mr. Smith,32,41,INVOICE,BILMQZ
+what do i have to do to check bill #00108,check_invoice,invoice_id,#00108,35,41,INVOICE,BILQ
+I don't know what I have to do to find invoice #12588,check_invoice,invoice_id,#12588,47,53,INVOICE,B
+checking bill from Mr. Smith,check_invoice,person_name,Mr. Smith,19,28,INVOICE,BKL
+help me to check the invoices from Mr. Jones,check_invoice,person_name,Mr. Jones,35,44,INVOICE,BM
+help me see the bill #37777,check_invoice,invoice_id,#37777,21,27,INVOICE,BL
+wanna locate the bill from the last month i need assistance,check_invoice,,,,,INVOICE,BCLQ
+assistance to take a quick look at my bill #85632,check_invoice,invoice_id,#85632,43,49,INVOICE,BL
+can you help me to locate my bills from Mr. Smith?,check_invoice,person_name,Mr. Smith,40,49,INVOICE,BILM
+check the bills from Anna Freeman,check_invoice,person_name,Anna Freeman,21,33,INVOICE,BLM
+I have to take a quick look at my bills from Mr. Smith,check_invoice,person_name,Mr. Smith,45,54,INVOICE,BLM
+checking invoices,check_invoice,,,,,INVOICE,BKM
+checking invoices from ten months ago,check_invoice,,,,,INVOICE,BKM
+checking invoice from 8 months ago,check_invoice,,,,,INVOICE,BKM
+check invoices from Mr. Smith,check_invoice,person_name,Mr. Smith,20,29,INVOICE,BKM
+check invoice #37777,check_invoice,invoice_id,#37777,14,20,INVOICE,BK
+checking invoices from Mr. Smith,check_invoice,person_name,Mr. Smith,23,32,INVOICE,BKM
+check invoices from last month,check_invoice,,,,,INVOICE,BKM
+were to take a quick look at the bill from Mr. Jones?,check_invoice,person_name,Mr. Jones,43,52,INVOICE,BILZ
+will you show me my bill #12588?,check_invoice,invoice_id,#12588,25,31,INVOICE,BILP
+I want help looking for my bill ffom Anna Freeman,check_invoice,person_name,Anna Freeman,37,49,INVOICE,BLZ
+what do i need to do to locate my bills from Mr. Smith,check_invoice,person_name,Mr. Smith,45,54,INVOICE,BILMQ
+checking invoice from last purchase,check_invoice,,,,,INVOICE,BK
+i want assistance seeing invoice #85632,check_invoice,invoice_id,#85632,33,39,INVOICE,BLQ
+can i list ur available payment methods,check_payment_methods,,,,,PAYMENT,BILQ
+check ur pamyent modalities,check_payment_methods,,,,,PAYMENT,BLQZ
+wanna see ur allowed payment modalities how do i do it,check_payment_methods,,,,,PAYMENT,BCILQ
+I don't know how to list your payment modalities,check_payment_methods,,,,,PAYMENT,BL
+can ya help me checking ur available payment options,check_payment_methods,,,,,PAYMENT,BILQ
+could ya helpo me listing the allowed payment methods,check_payment_methods,,,,,PAYMENT,BILPQZ
+I don't know how I can see the available payment modalities,check_payment_methods,,,,,PAYMENT,BL
+assistance listing your payment modalities,check_payment_methods,,,,,PAYMENT,BL
+assistance to check your payment modalities,check_payment_methods,,,,,PAYMENT,BL
+I'd like to see the allowed paymentoptions i need assistance,check_payment_methods,,,,,PAYMENT,BCLPQZ
+"I want to check the payment modalities, I need help",check_payment_methods,,,,,PAYMENT,BCL
+could you tell me the goddamn accepted payment modalities?,check_payment_methods,,,,,PAYMENT,BILPW
+I do not know how I can list your allowed payment modalities,check_payment_methods,,,,,PAYMENT,BEL
+where do I see what payment methods are available?,check_payment_methods,,,,,PAYMENT,BIL
+I do not know how I can check the payment modalities,check_payment_methods,,,,,PAYMENT,BEL
+I want assistance to see your accepted payment options,check_payment_methods,,,,,PAYMENT,BL
+I don't know what I need to do to check the payment options,check_payment_methods,,,,,PAYMENT,BL
+coul ya help me to see ur available payment methods,check_payment_methods,,,,,PAYMENT,BILPQZ
+I have got to see your payment modalities,check_payment_methods,,,,,PAYMENT,BL
+I want help checking your goddamn accepted payment methods,check_payment_methods,,,,,PAYMENT,BLW
+how do I see what payment methods you accept?,check_payment_methods,,,,,PAYMENT,BIL
+I need help checking your payment modalities,check_payment_methods,,,,,PAYMENT,BL
+how do i see the available payment modalities,check_payment_methods,,,,,PAYMENT,BILQ
+need to list ru allowed payment options how can i do it,check_payment_methods,,,,,PAYMENT,BCILQZ
+how to see your allowed payment methods?,check_payment_methods,,,,,PAYMENT,BIL
+checking allowed payment methods,check_payment_methods,,,,,PAYMENT,BK
+I do not know how to check the accepted payment methods,check_payment_methods,,,,,PAYMENT,BEL
+i do not know how to check the payment modalities,check_payment_methods,,,,,PAYMENT,BELQ
+acn I check the accepted payment methods?,check_payment_methods,,,,,PAYMENT,BILZ
+I want assistance seeing your accepted payment options,check_payment_methods,,,,,PAYMENT,BL
+i try to check in which cases can i request my mpney back,check_refund_policy,,,,,REFUND,BLQZ
+I try to see how long reimbursements take,check_refund_policy,,,,,REFUND,BL
+i try to see in which cases can i ask for a reimbursement,check_refund_policy,,,,,REFUND,BLQ
+i have to see urt money back policy how can i do it,check_refund_policy,,,,,REFUND,BCILQZ
+I do not know how I can check your reimbursement policy,check_refund_policy,,,,,REFUND,BEL
+I have gotto check how long reimbursements usually take,check_refund_policy,,,,,REFUND,BLZ
+i have got to see how long refunds usually take how to do it,check_refund_policy,,,,,REFUND,BCILQ
+i want help seeing in which situations can i request refunds,check_refund_policy,,,,,REFUND,BLQ
+can ushow me in which cases can i ask to berefunded,check_refund_policy,,,,,REFUND,BILQZ
+seeung your money back policy,check_refund_policy,,,,,REFUND,BLZ
+I try to see how long refunds take,check_refund_policy,,,,,REFUND,BL
+assistance to check in which cases can i request refunds,check_refund_policy,,,,,REFUND,BLQ
+need to see under which circumstances can i ask for refunds,check_refund_policy,,,,,REFUND,BLQ
+what do I have to do to check your reimbursement policy?,check_refund_policy,,,,,REFUND,BIL
+want assistance to see in which cases can I ask for refunds,check_refund_policy,,,,,REFUND,BLQ
+could you help me seeing your reimbursement policy?,check_refund_policy,,,,,REFUND,BILP
+I need help to check in what cases can I request a refund,check_refund_policy,,,,,REFUND,BL
+help checking in what cases can i request refunds,check_refund_policy,,,,,REFUND,BLQ
+"I have to see your fucking refund policy, how do I do it?",check_refund_policy,,,,,REFUND,BCILW
+i have got to check in which cases can i request a refund,check_refund_policy,,,,,REFUND,BLQ
+I need help to see in which cases can I request refunds,check_refund_policy,,,,,REFUND,BL
+check in which situations can I ask for a goddamn refund,check_refund_policy,,,,,REFUND,BLW
+I am trying to see in what cases can I ask to be reimbursed,check_refund_policy,,,,,REFUND,BL
+how to see your money back policy?,check_refund_policy,,,,,REFUND,BIL
+help me to see in which cases can I ask for a reimbursement,check_refund_policy,,,,,REFUND,BL
+assistance to check how long refunds take,check_refund_policy,,,,,REFUND,B
+I want to check in what cases can I request to be reimbursed,check_refund_policy,,,,,REFUND,BL
+i try to see in which situations can i ask for my money back,check_refund_policy,,,,,REFUND,BLQ
+I'm trying to see in what cases can i ask for my money back,check_refund_policy,,,,,REFUND,BLQ
+i need help seeing in what cases can i ask for my money back,check_refund_policy,,,,,REFUND,BLQ
+I am trying to check your money back  guarantee,check_refund_policy,,,,,REFUND,BLZ
+i do not nkow what i have to do to file a reclamation,complaint,,,,,FEEDBACK,BELQZ
+I don't know what I have to do to lodge a custmer complaint,complaint,,,,,FEEDBACK,BLZ
+i need help making a customer reclamation against ur company,complaint,,,,,FEEDBACK,BLQ
+can you help me to file a consumer complaint?,complaint,,,,,FEEDBACK,BIL
+i need assistance to file a damn claim against ur business,complaint,,,,,FEEDBACK,BLQW
+how do i lodge a consumer claim against ur business,complaint,,,,,FEEDBACK,BILQ
+need to make a fucking claim,complaint,,,,,FEEDBACK,BLQW
+"I am terribly unhappy with your work, file a complaint",complaint,,,,,FEEDBACK,BCL
+"I am unhappy with your service, file a customer claim",complaint,,,,,FEEDBACK,BCL
+help me make a reclamation against ur organization,complaint,,,,,FEEDBACK,BLQ
+where do I make a claim against your company?,complaint,,,,,FEEDBACK,BIL
+where to file a claim against your organization?,complaint,,,,,FEEDBACK,BIL
+need help filing a customer claim against ur business,complaint,,,,,FEEDBACK,BLQ
+I am calling to make a reclamation against your business,complaint,,,,,FEEDBACK,BL
+I need to file a customer claim against your organization,complaint,,,,,FEEDBACK,BL
+I have got to make a customer complaint,complaint,,,,,FEEDBACK,BL
+make reclamation against your company,complaint,,,,,FEEDBACK,BKL
+need help to make a customer claum against your business,complaint,,,,,FEEDBACK,BLQZ
+I want help filing a customer claim,complaint,,,,,FEEDBACK,BL
+I want assistance filing an claim against your company,complaint,,,,,FEEDBACK,BLZ
+I try to lodge a claim against your business,complaint,,,,,FEEDBACK,BL
+assistance to lodge a reclamation against your company,complaint,,,,,FEEDBACK,BL
+I need to lodge a claim against your organization,complaint,,,,,FEEDBACK,BL
+where to make a claim against your business?,complaint,,,,,FEEDBACK,BIL
+"I am very unhappy with your work, how do I make a claim?",complaint,,,,,FEEDBACK,BCIL
+the experinece with ur brand was bad i wanna make a claim,complaint,,,,,FEEDBACK,BCLQZ
+I need assistance to file a reclamation,complaint,,,,,FEEDBACK,BL
+I don't know how to file a reclamation,complaint,,,,,FEEDBACK,BL
+need help filing a consumer claim against your organization,complaint,,,,,FEEDBACK,BLQ
+"I am unhappy with your work, file a goddamn reclamation",complaint,,,,,FEEDBACK,BCLW
+I'm very unsatisfied with ur services i try to lodge a claim,complaint,,,,,FEEDBACK,BCLQ
+help me make a complaint against ur organization,complaint,,,,,FEEDBACK,BLQ
+help me file a customer reclamation,complaint,,,,,FEEDBACK,BL
+need assistance to lodge a complaint against ur organization,complaint,,,,,FEEDBACK,BLQ
+help me to file a customer reclamation,complaint,,,,,FEEDBACK,BL
+I call to lodge a consumer claim,complaint,,,,,FEEDBACK,BL
+tell me what hours I can call customer assistance,contact_customer_service,,,,,CONTACT,BL
+can I see at what time I can contact customer support?,contact_customer_service,,,,,CONTACT,BIL
+speak with bloody customer service,contact_customer_service,,,,,CONTACT,BLW
+speaking to customer assistance,contact_customer_service,,,,,CONTACT,BL
+need help to see what hours I can reach customer assistance,contact_customer_service,,,,,CONTACT,BLQ
+hoq can I contact customer support?,contact_customer_service,,,,,CONTACT,BILZ
+help to get in touch with customer assistance,contact_customer_service,,,,,CONTACT,BL
+I need to see what hours customer support available is,contact_customer_service,,,,,CONTACT,BL
+tell me what hours I can call customer support,contact_customer_service,,,,,CONTACT,BL
+help me calling customer assistance,contact_customer_service,,,,,CONTACT,BL
+I'm trying to speak to cstomer support,contact_customer_service,,,,,CONTACT,BLQZ
+where do i check what hours i can reach customer support,contact_customer_service,,,,,CONTACT,BILQ
+"I want to speak to customer support, how can Ido it?",contact_customer_service,,,,,CONTACT,BCILZ
+what time can I get in touch with customer support?,contact_customer_service,,,,,CONTACT,BIL
+help to talk with customer support,contact_customer_service,,,,,CONTACT,BL
+help me speal to customer service,contact_customer_service,,,,,CONTACT,BLZ
+I'd like to speak with customer support how do i do it,contact_customer_service,,,,,CONTACT,BCILPQ
+what do I have to do to get in touch with customer service?,contact_customer_service,,,,,CONTACT,BIL
+want help to speak  to customer service,contact_customer_service,,,,,CONTACT,BLQZ
+I want assistance contacting customer service,contact_customer_service,,,,,CONTACT,B
+need to see what hours i can reach customer service,contact_customer_service,,,,,CONTACT,BLQ
+see at what time I can get in touch  with customer support,contact_customer_service,,,,,CONTACT,BLZ
+help me see at what time customer assistance available is,contact_customer_service,,,,,CONTACT,BL
+I want to get in touch with customer assistance,contact_customer_service,,,,,CONTACT,BL
+what do I need to do to speak with customer assistance?,contact_customer_service,,,,,CONTACT,BIL
+"I have to speak with customer support, help me",contact_customer_service,,,,,CONTACT,BCL
+see at what time I can reach customer assistance,contact_customer_service,,,,,CONTACT,BL
+I need help seeing at what time I can call customer service,contact_customer_service,,,,,CONTACT,BL
+want help talking ot somebody,contact_human_agent,,,,,CONTACT,BLQZ
+"you aren't helpful, I want to speak to a bloody assistant",contact_human_agent,,,,,CONTACT,BCLW
+help to talk to a human agent,contact_human_agent,,,,,CONTACT,BL
+help me speaking to a operator,contact_human_agent,,,,,CONTACT,BLZ
+i cannot understand a word usay talk with na operator,contact_human_agent,,,,,CONTACT,BCELQZ
+"you are not helpful at all, I have to talk to someone",contact_human_agent,,,,,CONTACT,BCEL
+what do I have to do to chat with a damn agent?,contact_human_agent,,,,,CONTACT,BILW
+"I have got to speak to a fucking assistant, how do I do it?",contact_human_agent,,,,,CONTACT,BCILW
+I want help talking to an agent,contact_human_agent,,,,,CONTACT,B
+I try to talk to a person,contact_human_agent,,,,,CONTACT,BL
+want asistance chatting with a human agent,contact_human_agent,,,,,CONTACT,BLQZ
+I haveto talk to an operator,contact_human_agent,,,,,CONTACT,BLZ
+"I cannot understand you, assistance to talk with an operator",contact_human_agent,,,,,CONTACT,BCEL
+i do not know how to contact an person,contact_human_agent,,,,,CONTACT,BELQZ
+talk to agent,contact_human_agent,,,,,CONTACT,BK
+i do not know what i have to do to contact an agent,contact_human_agent,,,,,CONTACT,BEQ
+"you are not helpful at all, how to contact an operator?",contact_human_agent,,,,,CONTACT,BCEIL
+I can't contact a live agent,contact_human_agent,,,,,CONTACT,BL
+i want assistance speaking to somebody,contact_human_agent,,,,,CONTACT,BLQ
+i dont know what i have to do to talk with a human agent,contact_human_agent,,,,,CONTACT,BLQ
+how could I chat with someone?,contact_human_agent,,,,,CONTACT,BILP
+how could I talk to a person?,contact_human_agent,,,,,CONTACT,BILP
+could you help me contacting a person?,contact_human_agent,,,,,CONTACT,BILP
+new standard account for bride,create_account,account_type,Standard,4,12,ACCOUNT,BKL
+open a free account for my fiancee,create_account,account_type,free,7,11,ACCOUNT,BL
+need assistance opening a standard account,create_account,account_type,Standard,26,34,ACCOUNT,BLQ
+I have got to create a platinum account for my fiancee,create_account,account_type,Platinum,23,31,ACCOUNT,BL
+"I ain't registerde, need assistance opening a Pro account",create_account,account_type,Pro,46,49,ACCOUNT,BCLQZ
+creating new standard account,create_account,account_type,Standard,13,21,ACCOUNT,BKL
+can ya help me to open a Premium account,create_account,account_type,Premium,25,32,ACCOUNT,BILQ
+creating user,create_account,,,,,ACCOUNT,BK
+new freemium account,create_account,account_type,Freemium,4,12,ACCOUNT,BKL
+can I open a Gold account?,create_account,account_type,Gold,13,17,ACCOUNT,BIL
+open free account for bride,create_account,account_type,free,5,9,ACCOUNT,BKL
+creating Platinum account,create_account,account_type,Platinum,9,17,ACCOUNT,BK
+I want assistance creating a premium account for my daughter,create_account,account_type,Premium,29,36,ACCOUNT,BL
+i need a pro account can i creatte it,create_account,account_type,Pro,9,12,ACCOUNT,BCILQZ
+opening new free account for wife,create_account,account_type,free,12,16,ACCOUNT,BKL
+"I do not have a freemium account, assistance to register",create_account,account_type,Freemium,16,24,ACCOUNT,BCELN
+I cannot create a platinum account,create_account,account_type,Platinum,18,26,ACCOUNT,BELN
+open free account,create_account,account_type,free,5,9,ACCOUNT,BKL
+open Pro account for bride,create_account,account_type,Pro,5,8,ACCOUNT,BKL
+create Freemium account,create_account,account_type,Freemium,7,15,ACCOUNT,BK
+have a question about creating a platinum account,create_account,account_type,Platinum,33,41,ACCOUNT,BQ
+open Premium account for bride,create_account,account_type,Premium,5,12,ACCOUNT,BKL
+can ya give me information about opening an platinum account,create_account,account_type,Platinum,44,52,ACCOUNT,BILQZ
+want help to open a platinum account,create_account,account_type,Platinum,20,28,ACCOUNT,BLQ
+create new pro account for wife,create_account,account_type,Pro,11,14,ACCOUNT,BKL
+I need help to open a Premium account for my wife,create_account,account_type,Premium,22,29,ACCOUNT,BL
+creating Premium account,create_account,account_type,Premium,9,16,ACCOUNT,BK
+"I don't want my pro account, I am trying to close it",delete_account,account_type,Pro,16,19,ACCOUNT,BCL
+i need information about the deletion of a free account,delete_account,account_type,free,43,47,ACCOUNT,BLQ
+I do not know how I could close my damn free account,delete_account,account_type,free,40,44,ACCOUNT,BELPW
+"I never use the user, can you help me to remove it?",delete_account,,,,,ACCOUNT,BCEIL
+assistance cancelling the Platinum account,delete_account,account_type,Platinum,26,34,ACCOUNT,BL
+problem with pro account deletions,delete_account,account_type,Pro,13,16,ACCOUNT,BLM
+I have a problem with the deletion of my Freemium account,delete_account,account_type,Freemium,41,49,ACCOUNT,BL
+i never make use of my Premium account I'd lke to remove it,delete_account,account_type,Premium,23,30,ACCOUNT,BCELPQZ
+cancelling standard account,delete_account,account_type,Standard,11,19,ACCOUNT,BKL
+cancel free account,delete_account,account_type,free,7,11,ACCOUNT,BKL
+closing Platinum account,delete_account,account_type,Platinum,8,16,ACCOUNT,BKL
+could you help me remove my Platinum account?,delete_account,account_type,Platinum,28,36,ACCOUNT,BILP
+I want assistance closing a standard account,delete_account,account_type,Standard,28,36,ACCOUNT,BL
+how to cancel the Pro account?,delete_account,account_type,Pro,18,21,ACCOUNT,BIL
+I don't know what I have to do to close a Pro account,delete_account,account_type,Pro,42,45,ACCOUNT,BL
+i have problems with the deletiom of a pro account,delete_account,account_type,Pro,39,42,ACCOUNT,BLMQZ
+i do not know what to do to remove the gold account,delete_account,account_type,Gold,39,43,ACCOUNT,BELQ
+can i remove a Gold account,delete_account,account_type,Gold,15,19,ACCOUNT,BILQ
+i want assistance cancelling my premium account,delete_account,account_type,Premium,32,39,ACCOUNT,BLQ
+i dont know how i can close a standard account,delete_account,account_type,Standard,30,38,ACCOUNT,BLQ
+I don't know how I can remoev my standard account,delete_account,account_type,Standard,33,41,ACCOUNT,BLZ
+can i order from Liverpool,delivery_options,delivery_city,Liverpool,17,26,DELIVERY,BIQ
+can I place an order from Philadelphia?,delivery_options,delivery_city,Philadelphia,26,38,DELIVERY,BI
+question about the shipping methods,delivery_options,,,,,DELIVERY,BL
+shipments to Dublin,delivery_options,delivery_city,Dublin,13,19,DELIVERY,BL
+can I see what options for delivery I can choose?,delivery_options,,,,,DELIVERY,BILM
+is it possible to place an order from Detroit?,delivery_options,delivery_city,Detroit,38,45,DELIVERY,BI
+do ya ship to Hungary,delivery_options,delivery_country,Hungary,14,21,DELIVERY,BILQ
+is it possible to place an order from Munich,delivery_options,delivery_city,Munich,38,44,DELIVERY,BIQ
+how can I see what delivery methods I can choose?,delivery_options,,,,,DELIVERY,BILM
+where do I check what fucking shipping options I have?,delivery_options,,,,,DELIVERY,BILMW
+I try to see the shipping methods,delivery_options,,,,,DELIVERY,BL
+do ya ship to USA,delivery_options,delivery_country,USA,14,17,DELIVERY,BILQ
+I would like to see what shipment options are available,delivery_options,,,,,DELIVERY,BLMP
+is it possible to order from  Finland?,delivery_options,delivery_country,Finland,30,37,DELIVERY,BIZ
+where can I see what methods for delivery I can choose?,delivery_options,,,,,DELIVERY,BILM
+where can I get information about the shipping options?,delivery_options,,,,,DELIVERY,BIL
+can i order from Detroit,delivery_options,delivery_city,Detroit,17,24,DELIVERY,BIQ
+can I see what goddamn shipment methods I have?,delivery_options,,,,,DELIVERY,BILMW
+can I place an order from Canada?,delivery_options,delivery_country,Canada,26,32,DELIVERY,BI
+deliveries to Canada,delivery_options,delivery_country,Canada,14,20,DELIVERY,B
+I want help checking what damn shipping options I have,delivery_options,,,,,DELIVERY,BLMW
+help checking what shipping methods you offer,delivery_options,,,,,DELIVERY,BLM
+is it possible to order from Canada?,delivery_options,delivery_country,Canada,29,35,DELIVERY,BI
+can I check what delivery methods you offer?,delivery_options,,,,,DELIVERY,BILM
+dso ya ship to Detroit,delivery_options,delivery_city,Detroit,15,22,DELIVERY,BILQZ
+what do I need to do to see the delivery options?,delivery_options,,,,,DELIVERY,BIL
+is it possible to order from Toronto?,delivery_options,delivery_city,Toronto,29,36,DELIVERY,BI
+can i plae an order from Japan,delivery_options,delivery_country,Japan,25,30,DELIVERY,BIQZ
+deliveies to Philadelphia,delivery_options,delivery_city,Philadelphia,13,25,DELIVERY,BZ
+"I have to check the options for shipment, help me",delivery_options,,,,,DELIVERY,BCL
+"I need to check the shipment options, can you help me?",delivery_options,,,,,DELIVERY,BCIL
+shipments to Valencia,delivery_options,delivery_city,Valencia,13,21,DELIVERY,BL
+is it possible to order from Dublin?,delivery_options,delivery_city,Dublin,29,35,DELIVERY,BI
+do you ship to USA?,delivery_options,delivery_country,USA,15,18,DELIVERY,BIL
+assistance to check how soon can I expect my package,delivery_period,,,,,DELIVERY,BL
+how can I get information about delivery periods?,delivery_period,,,,,DELIVERY,BI
+I want help to see when my order is going to arrive,delivery_period,,,,,DELIVERY,BL
+I don't know how I can check how long the delivery takes,delivery_period,,,,,DELIVERY,B
+i try to see when my item is gonna arrive,delivery_period,,,,,DELIVERY,BLQ
+i try to see how soon acn i expect my order,delivery_period,,,,,DELIVERY,BLQZ
+I have to check how long it takes for my order to arrove,delivery_period,,,,,DELIVERY,BLZ
+I want assistance seeing how soon can I expect my purchase,delivery_period,,,,,DELIVERY,BL
+I try to check how soon can I expect my delivery,delivery_period,,,,,DELIVERY,BL
+need help checking how long it takes for the item to arrive,delivery_period,,,,,DELIVERY,BLQ
+want assstance seeing when my article is gonna arrive,delivery_period,,,,,DELIVERY,BLQZ
+need assistance to check when my item is gonna arrive,delivery_period,,,,,DELIVERY,BQ
+I don't know how to see how soon can I expect my product,delivery_period,,,,,DELIVERY,BL
+I try to see when my purchase is going to arrive,delivery_period,,,,,DELIVERY,BL
+how long does it take for a product to arrive,delivery_period,,,,,DELIVERY,BILQ
+I want help to see when my shipment is going to arrive,delivery_period,,,,,DELIVERY,BL
+I don't know how to see when will my item arrive,delivery_period,,,,,DELIVERY,BL
+I call to see how soon can I expect the order,delivery_period,,,,,DELIVERY,BL
+where can I see when my purchase is going to arrive?,delivery_period,,,,,DELIVERY,BIL
+"I need to see when will my parcel arrive, how to do it?",delivery_period,,,,,DELIVERY,BCIL
+i need help to check when will my artidle arrive,delivery_period,,,,,DELIVERY,BLQZ
+tell me more about the delivery periods,delivery_period,,,,,DELIVERY,BM
+I want help to see how long it takes for the order to arrive,delivery_period,,,,,DELIVERY,BL
+assistance to see how soon can I expect my goddamn parcel,delivery_period,,,,,DELIVERY,BLW
+i call to check when my delivery is gonna arrive,delivery_period,,,,,DELIVERY,BQ
+want assistance checking when my product is going to arrive,delivery_period,,,,,DELIVERY,BLQ
+changing info on free  account,edit_account,account_type,free,17,21,ACCOUNT,BKLQZ
+edit data on Pro account,edit_account,account_type,Pro,13,16,ACCOUNT,BKL
+correcting info on Freemium account,edit_account,account_type,Freemium,19,27,ACCOUNT,BKLQ
+correcting ddtails on platinum account,edit_account,account_type,Platinum,22,30,ACCOUNT,BKLMZ
+modifying Platinum account,edit_account,account_type,Platinum,10,18,ACCOUNT,BKL
+editing Platinum account,edit_account,account_type,Platinum,8,16,ACCOUNT,BKL
+could I edit my personal information?,edit_account,,,,,ACCOUNT,BIP
+editing information on account,edit_account,,,,,ACCOUNT,BK
+correcting information on Pro account,edit_account,account_type,Pro,26,29,ACCOUNT,BKL
+"I want to edit my account, how could I do it?",edit_account,,,,,ACCOUNT,BCIP
+changing info on Platinum account,edit_account,account_type,Platinum,17,25,ACCOUNT,BKLQ
+change information on pro account,edit_account,account_type,Pro,22,25,ACCOUNT,BKL
+modify data on platinum account,edit_account,account_type,Platinum,15,23,ACCOUNT,BKL
+correct info on pro account,edit_account,account_type,Pro,16,19,ACCOUNT,BKLQ
+editing free account,edit_account,account_type,free,8,12,ACCOUNT,BKL
+changing information on Gold account,edit_account,account_type,Gold,24,28,ACCOUNT,BKL
+correcting info on Premium account,edit_account,account_type,Premium,19,26,ACCOUNT,BKLQ
+correcting details on pro account,edit_account,account_type,Pro,22,25,ACCOUNT,BKLM
+modify details on standard account,edit_account,account_type,Standard,18,26,ACCOUNT,BKLM
+modifying Pro accout,edit_account,account_type,Pro,10,13,ACCOUNT,BKLZ
+modifying info on pro account,edit_account,account_type,Pro,18,21,ACCOUNT,BKLQ
+how to downloa the invoice #85632?,get_invoice,invoice_id,#85632,27,33,INVOICE,BILZ
+download invoices from Anna Freeman,get_invoice,person_name,Anna Freeman,23,35,INVOICE,BKLM
+i have to get the invoice #37777 could uhelp me,get_invoice,invoice_id,#37777,26,32,INVOICE,BCIPQ
+I do not know how I can get the invoice fom Ms. Hawkings,get_invoice,person_name,Ms. Hawkings,44,56,INVOICE,BEZ
+what do I have to do to download the invoice from Mr. Smith?,get_invoice,person_name,Mr. Smith,50,59,INVOICE,BIL
+need assistance to download the bill from Anna Freeman,get_invoice,person_name,Anna Freeman,42,54,INVOICE,BLQ
+I need to download the bills from Mr. Smith,get_invoice,person_name,Mr. Smith,34,43,INVOICE,BLM
+getting invoices from Anna Freeman,get_invoice,person_name,Anna Freeman,22,34,INVOICE,BKM
+wanna download the invoice #12588 help me,get_invoice,invoice_id,#12588,27,33,INVOICE,BCLQ
+i want assitance to get the bill from Ms. Hawkings,get_invoice,person_name,Ms. Hawkings,38,50,INVOICE,BLQZ
+I don't know how I can download the invoice #85632,get_invoice,invoice_id,#85632,44,50,INVOICE,BL
+want help to download my bill #85632,get_invoice,invoice_id,#85632,30,36,INVOICE,BLQ
+can ya sedn me the bill #12588,get_invoice,invoice_id,#12588,24,30,INVOICE,BILQZ
+I do not know what to do to download bill #12588,get_invoice,invoice_id,#12588,42,48,INVOICE,BEL
+i have to get my invoices from Ms. Hawkings,get_invoice,person_name,Ms. Hawkings,31,43,INVOICE,BLMQ
+send me bill from Ms. Hawkings,get_invoice,person_name,Ms. Hawkings,18,30,INVOICE,BKL
+I do not know what to do to download the invoice #12588,get_invoice,invoice_id,#12588,49,55,INVOICE,BEL
+what do i need to do to get my invoice from Anna Freeman,get_invoice,person_name,Anna Freeman,44,56,INVOICE,BILQ
+I need help downloading my invoice from Anna Freeman,get_invoice,person_name,Anna Freeman,40,52,INVOICE,BL
+mail me my invoice #37777,get_invoice,invoice_id,#37777,19,25,INVOICE,BL
+download bills from David Miller,get_invoice,person_name,David Miller,20,32,INVOICE,BKLM
+get invoices from Anna Freeman,get_invoice,person_name,Anna Freeman,18,30,INVOICE,BKM
+getting invoice from 4 purchases ago,get_invoice,,,,,INVOICE,BKM
+ido not know how i can download the bills from Ms. Hawkings,get_invoice,person_name,Ms. Hawkings,47,59,INVOICE,BELMQZ
+help me to download the invoices from Anna Freeman,get_invoice,person_name,Anna Freeman,38,50,INVOICE,BLM
+I am trying to download the invoices from David Miller,get_invoice,person_name,David Miller,42,54,INVOICE,BLM
+get invoice from last purchase,get_invoice,,,,,INVOICE,BK
+I do not know how I can get the invoice #12588,get_invoice,invoice_id,#12588,40,46,INVOICE,BE
+I do not know how I can get my invoice from Anna Freeman,get_invoice,person_name,Anna Freeman,44,56,INVOICE,BEL
+how could I download my bills from David Miller?,get_invoice,person_name,David Miller,35,47,INVOICE,BILMP
+get invoices,get_invoice,,,,,INVOICE,BKM
+ii have to get the bill from Mr. Smith can i get some help,get_invoice,person_name,Mr. Smith,29,38,INVOICE,BCILQZ
+i dont know how i can get damn compensations,get_refund,,,,,REFUND,BLMQW
+where could I ask for refunds?,get_refund,,,,,REFUND,BILMP
+refunding $1499,get_refund,refund_amount,1499,11,15,REFUND,BKM
+how to receive a refund of money,get_refund,,,,,REFUND,BILQ
+get money back,get_refund,,,,,REFUND,BK
+rebating 1200 dollars,get_refund,refund_amount,1200,9,13,REFUND,BKLM
+I need assistance to request reimbursements,get_refund,,,,,REFUND,BLM
+what do I need to do to obtain rebates of money?,get_refund,,,,,REFUND,BILM
+refunding $350,get_refund,refund_amount,350,11,14,REFUND,BKM
+rebating 299 dollars,get_refund,refund_amount,299,9,12,REFUND,BKLM
+i need assistance obtaining rebates,get_refund,,,,,REFUND,BLMQ
+I do not know how I can get a rebate of money,get_refund,,,,,REFUND,BEL
+how can i receive restitutions of money,get_refund,,,,,REFUND,BILMQ
+help me to ask for reimbursements,get_refund,,,,,REFUND,BLM
+I want help to obtain a compensation,get_refund,,,,,REFUND,BL
+I want help to receive reimbursements of money,get_refund,,,,,REFUND,BLM
+i dont know what i have to do to request rebates of my money,get_refund,,,,,REFUND,BLMQ
+I need help obtaining compensations of money,get_refund,,,,,REFUND,BLM
+what do I need to do to obtain reimbursements of money?,get_refund,,,,,REFUND,BILM
+i dont know how i could receive restitutions of my money,get_refund,,,,,REFUND,BLMPQ
+reinburse $160,get_refund,refund_amount,160,11,14,REFUND,BKLMZ
+I don't know what I need to do to demand a refund,get_refund,,,,,REFUND,BL
+"I paid 1200 dollars for a product, I want my reimbursement",get_refund,refund_amount,1200,7,11,REFUND,BCLM
+I need assistance to get restitutions of money,get_refund,,,,,REFUND,BLM
+"I have paid $160 for this product, I want a compensation",get_refund,refund_amount,160,13,16,REFUND,BCELM
+I don't know how I can get a restitution of money,get_refund,,,,,REFUND,BL
+reimburse 160 dollars,get_refund,refund_amount,160,10,13,REFUND,BKLM
+can ya help me to ask for rebates of my money,get_refund,,,,,REFUND,BILMQ
+i want assistance to get a reufnd,get_refund,,,,,REFUND,BQZ
+iwant help to get refunds,get_refund,,,,,REFUND,BMQZ
+"I have to unsubscribe from the corporate newsletter, help me",newsletter_subscription,,,,,NEWSLETTER,BCL
+I want assistance canceling my newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BL
+cancel subscription to your newsletter,newsletter_subscription,,,,,NEWSLETTER,BKL
+i do not knowhow i can subscribe to the company newsletter,newsletter_subscription,,,,,NEWSLETTER,BELQZ
+can ya tell me more about the newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BILQ
+can i receive the company newsletter,newsletter_subscription,,,,,NEWSLETTER,BILQ
+can you tell me more about cancel my newsleter subscription?,newsletter_subscription,,,,,NEWSLETTER,BILZ
+what do I have to do to subscribe to the company newsletter?,newsletter_subscription,,,,,NEWSLETTER,BIL
+I need information about receiving your company newsletter,newsletter_subscription,,,,,NEWSLETTER,BL
+tell me about canceling the subscription to ur newsletter,newsletter_subscription,,,,,NEWSLETTER,BLQ
+where do i receive ur corporate newsletter,newsletter_subscription,,,,,NEWSLETTER,BILQ
+I want to cancel my bloody newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BLW
+I want help unsubscribing to your corporate newsletter,newsletter_subscription,,,,,NEWSLETTER,BL
+how to unsubscribe to ur company newsletter,newsletter_subscription,,,,,NEWSLETTER,BILQ
+where do i cancel the company bloody newsletter subwcription,newsletter_subscription,,,,,NEWSLETTER,BIQWZ
+newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BKL
+help cancelling my subscription to ur company newsletter,newsletter_subscription,,,,,NEWSLETTER,BLQ
+can uhelp me sign up to urnewsletter,newsletter_subscription,,,,,NEWSLETTER,BILQZ
+I try to receive your newsletter,newsletter_subscription,,,,,NEWSLETTER,BL
+where do i cancel the subscription to ur company newsletter,newsletter_subscription,,,,,NEWSLETTER,BIQ
+I don't know how to unsubscribe from your company newsletter,newsletter_subscription,,,,,NEWSLETTER,BL
+how do i unsubscribe to ur damn company newsletter,newsletter_subscription,,,,,NEWSLETTER,BILQW
+tell me more about receiving your corporate newwletter,newsletter_subscription,,,,,NEWSLETTER,BLZ
+i dont know what to do to receive ur corporate newslewtter,newsletter_subscription,,,,,NEWSLETTER,BLQZ
+i have to subscribe to the newsletter i need help,newsletter_subscription,,,,,NEWSLETTER,BCLQ
+help me to cancel my newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BL
+canceling subscription t your newsletter,newsletter_subscription,,,,,NEWSLETTER,BLZ
+I have got to cancel the subscription to the newsletter,newsletter_subscription,,,,,NEWSLETTER,BL
+tell me about unsubscribing to ur company newsletter,newsletter_subscription,,,,,NEWSLETTER,BQ
+want help receiving the newsletter,newsletter_subscription,,,,,NEWSLETTER,BLQ
+can utell me about receiving ur corporate newsletter,newsletter_subscription,,,,,NEWSLETTER,BILQ
+could ya tell me about canceling the newsletter subscription,newsletter_subscription,,,,,NEWSLETTER,BILPQ
+how can I sign up to the newsletter?,newsletter_subscription,,,,,NEWSLETTER,BIL
+want hel to sign up to ur newsletter,newsletter_subscription,,,,,NEWSLETTER,BLQZ
+payment help,payment_issue,,,,,PAYMENT,BK
+I have to inform of an error with payments,payment_issue,,,,,PAYMENT,BLM
+assistance to report errors with payment,payment_issue,,,,,PAYMENT,BLM
+wanna report troubles with online payments,payment_issue,,,,,PAYMENT,BLMQ
+i want help to solve problems with online payments,payment_issue,,,,,PAYMENT,BLMQ
+I'd like to reort a fucking payment problem how do i do it,payment_issue,,,,,PAYMENT,BCILPQWZ
+I'm triyng to report troubles with online payment,payment_issue,,,,,PAYMENT,BLMQZ
+i want help to report payment issues,payment_issue,,,,,PAYMENT,BMQ
+help me inform of errors with payments,payment_issue,,,,,PAYMENT,BLM
+what do i have to do to inform of a payment problem,payment_issue,,,,,PAYMENT,BILQ
+report issues with payments,payment_issue,,,,,PAYMENT,BKM
+I want help notifying of a problem with payment,payment_issue,,,,,PAYMENT,BL
+reporting issue with payment,payment_issue,,,,,PAYMENT,BK
+can you help me solve an error with payments ?,payment_issue,,,,,PAYMENT,BILMZ
+i need help solving a trouble with payments,payment_issue,,,,,PAYMENT,BLMQ
+I do not know how I could notify of a payment problem,payment_issue,,,,,PAYMENT,BELP
+I want assistance solving errors with payment,payment_issue,,,,,PAYMENT,BLM
+I need assistance to inform of a trouble with online payment,payment_issue,,,,,PAYMENT,BL
+i want help solving an error with online payments,payment_issue,,,,,PAYMENT,BLMQ
+I need to report errors with payment,payment_issue,,,,,PAYMENT,BLM
+need assistance to notify of a trouble with payment,payment_issue,,,,,PAYMENT,BLQ
+how doo I report problems with payments?,payment_issue,,,,,PAYMENT,BILMZ
+I want help to solve troubles with payment,payment_issue,,,,,PAYMENT,BLM
+need help informing of erors with online payment,payment_issue,,,,,PAYMENT,BLMQZ
+could you helo me purchasing some of your item?,place_order,,,,,ORDER,BILMPZ
+I don't know what I need to do to shp something,place_order,,,,,ORDER,BLZ
+i dont know what i have to do to earn an item,place_order,,,,,ORDER,BLQ
+I want help buying several of your product,place_order,,,,,ORDER,BLM
+acqauiring something,place_order,,,,,ORDER,BKLZ
+i have to buy some products could ya help me,place_order,,,,,ORDER,BCILMPQ
+I do not know what I need to do to order a few of your item,place_order,,,,,ORDER,BELM
+I don't know how I can shop sevefal of your product,place_order,,,,,ORDER,BLMZ
+want help purchasing some of ur article,place_order,,,,,ORDER,BLMQ
+I have to order several items,place_order,,,,,ORDER,BLM
+i have to acquire an article,place_order,,,,,ORDER,BLQ
+I want help buying some articles,place_order,,,,,ORDER,BLM
+how to earn an item,place_order,,,,,ORDER,BILQ
+i do not know how to purchase several products,place_order,,,,,ORDER,BELMQ
+I want help to acquire some items,place_order,,,,,ORDER,BLM
+can you help me ordering a product?,place_order,,,,,ORDER,BIL
+help me purchasing several products,place_order,,,,,ORDER,BLM
+assistance ordering several of your article,place_order,,,,,ORDER,BLM
+help me earning some of your item,place_order,,,,,ORDER,BLM
+"I have got to buy a few of your article, how can I do it?",place_order,,,,,ORDER,BCILM
+i dont know what i have to do to buy an article,place_order,,,,,ORDER,BLQ
+I try to earn a few of your item,place_order,,,,,ORDER,BLM
+i do not know what i ned to do to buy a product,place_order,,,,,ORDER,BELQZ
+how to shop several of your product?,place_order,,,,,ORDER,BILM
+need help to earn something,place_order,,,,,ORDER,BLQ
+I try to order a few of your product,place_order,,,,,ORDER,BLM
+assistance ordering several of your product,place_order,,,,,ORDER,BLM
+earn a few of your product,place_order,,,,,ORDER,BLM
+what do I need to do to purchase a few of your article?,place_order,,,,,ORDER,BILM
+i dont know what i have to od to buy several of ur item,place_order,,,,,ORDER,BMQZ
+need assistance ordering a few of ur article,place_order,,,,,ORDER,BLMQ
+help buying several articles,place_order,,,,,ORDER,BLM
+whereto shop some of ur product,place_order,,,,,ORDER,BILMQZ
+I do not know what to do to order several items,place_order,,,,,ORDER,BELM
+awnt help to buy a product,place_order,,,,,ORDER,BLQZ
+help me purchasing some items,place_order,,,,,ORDER,BLM
+can you help me buy a product?,place_order,,,,,ORDER,BIL
+assistance to shop several products,place_order,,,,,ORDER,BLM
+i have to recover the pwd of my user profile,recover_password,,,,,ACCOUNT,BLQ
+I need assistance retrieving my pwd,recover_password,,,,,ACCOUNT,BLQ
+I need assistance restoring the pass of my user,recover_password,,,,,ACCOUNT,BLQ
+help me retrieve my user key,recover_password,,,,,ACCOUNT,BL
+help restoring my account  PIN,recover_password,,,,,ACCOUNT,BLZ
+can ya help em retrieve my user profile password,recover_password,,,,,ACCOUNT,BILQZ
+I need to recover my profile password,recover_password,,,,,ACCOUNT,BL
+i dont know what i have to do to restore mny pin code,recover_password,,,,,ACCOUNT,BLQZ
+I do not know how I could reset the PIN of my user account,recover_password,,,,,ACCOUNT,BELP
+I cannot retrieve my fucking user PIN code,recover_password,,,,,ACCOUNT,BELNW
+I do not know what I have to do to reset my user PIN,recover_password,,,,,ACCOUNT,BEL
+i dont know how i can reset my account pin,recover_password,,,,,ACCOUNT,BLQ
+help mereset my pwd,recover_password,,,,,ACCOUNT,BLQZ
+help to retrieve my damn user profile PIN code,recover_password,,,,,ACCOUNT,BLW
+help me recover my account PIN code,recover_password,,,,,ACCOUNT,BL
+help retrieving the access key of my user,recover_password,,,,,ACCOUNT,BL
+I need to restore the PIN of my user profile,recover_password,,,,,ACCOUNT,BL
+can i retrieve the pass of my profile,recover_password,,,,,ACCOUNT,BILQ
+i do not know what ineed to do to reset my user pin code,recover_password,,,,,ACCOUNT,BELQZ
+"I need information about a lost key, how could I find it?",recover_password,,,,,ACCOUNT,BCIL
+"I lost my key, help to recover it",recover_password,,,,,ACCOUNT,BCL
+would ugive me informtaion about my pass retrieval,recover_password,,,,,ACCOUNT,BILPQZ
+I have to retrieve my user profile PIN,recover_password,,,,,ACCOUNT,BL
+help me tyo retrieve my user account pin,recover_password,,,,,ACCOUNT,BLQZ
+can you help me to retrieve my fucking profile PIN code?,recover_password,,,,,ACCOUNT,BILW
+I want help recovering my profile access key,recover_password,,,,,ACCOUNT,BL
+Iwant help retrieving my profile access key,recover_password,,,,,ACCOUNT,BLZ
+I do not know how to restore the key of my user account,recover_password,,,,,ACCOUNT,BEL
+assistance to recover the password of my profile,recover_password,,,,,ACCOUNT,BL
+i try to reset my account password,recover_password,,,,,ACCOUNT,BLQ
+i cant inform of registration problems,registration_problems,,,,,ACCOUNT,BLMNQ
+help creating user,registration_problems,,,,,ACCOUNT,BK
+I have to notify of problems with a damn signup,registration_problems,,,,,ACCOUNT,BLMW
+I want to report sign-up problems,registration_problems,,,,,ACCOUNT,BLM
+where do I notify of errors with sign-up?,registration_problems,,,,,ACCOUNT,BILM
+can you help me report problems with sign-up?,registration_problems,,,,,ACCOUNT,BILM
+need help reporting sign-up problems,registration_problems,,,,,ACCOUNT,BLMQ
+need to notify of issues with sign-up how do i do it,registration_problems,,,,,ACCOUNT,BCILMQ
+i do not know what i need to do to report signup issues,registration_problems,,,,,ACCOUNT,BELMQ
+need help to report a registration error,registration_problems,,,,,ACCOUNT,BLQ
+can you help me to report a sign-up error?,registration_problems,,,,,ACCOUNT,BIL
+assistance reporting a registration problem,registration_problems,,,,,ACCOUNT,BL
+I try to notify of an error with a signup,registration_problems,,,,,ACCOUNT,BL
+help me to notify of errors with a sign-up,registration_problems,,,,,ACCOUNT,BLM
+need help informing of an sign-up error,registration_problems,,,,,ACCOUNT,BLQZ
+i dont know what i have to do to notify of a sign-up error,registration_problems,,,,,ACCOUNT,BLQ
+reporting issues with registration,registration_problems,,,,,ACCOUNT,BKM
+i want help reporting sign-up problems,registration_problems,,,,,ACCOUNT,BLMQ
+i want help notifying of an issue with sign-up,registration_problems,,,,,ACCOUNT,BLQ
+"I can't sign up, need help notifying of registration errors",registration_problems,,,,,ACCOUNT,BCLMNQ
+want help to notify of problems with a signup,registration_problems,,,,,ACCOUNT,BLMQ
+reporting registration issue,registration_problems,,,,,ACCOUNT,BK
+inform of problems with a signup,registration_problems,,,,,ACCOUNT,BLM
+reporting issue creating account,registration_problems,,,,,ACCOUNT,BK
+can you help me to notify of a signup issue?,registration_problems,,,,,ACCOUNT,BIL
+want assstance reporting a registration issue,registration_problems,,,,,ACCOUNT,BQZ
+I want help notifying of an error with a sign-up,registration_problems,,,,,ACCOUNT,BL
+issue with registration,registration_problems,,,,,ACCOUNT,BK
+can you help me to inform of registration issues?,registration_problems,,,,,ACCOUNT,BILM
+i need help to report an error with a registration,registration_problems,,,,,ACCOUNT,BLQ
+need assistance to notify of problems with a sign-up,registration_problems,,,,,ACCOUNT,BLMQ
+have a question about the goddamn online registration,registration_problems,,,,,ACCOUNT,BLQW
+I cannot inform of errors with a sign-up,registration_problems,,,,,ACCOUNT,BELMN
+I am trying to inform of problems with registrations,registration_problems,,,,,ACCOUNT,BLM
+could I report registration issues?,registration_problems,,,,,ACCOUNT,BIMP
+do you have a method to leave an opinion for your company?,review,,,,,FEEDBACK,BIL
+can you help me leave a review about a service?,review,,,,,FEEDBACK,BIL
+i do not know what to do to write an opinion for ur company,review,,,,,FEEDBACK,BELQ
+leaving review for your services,review,,,,,FEEDBACK,BK
+i want hel to write a review for ur products,review,,,,,FEEDBACK,BLQZ
+dop you have an e-mail to send feedback for a service?,review,,,,,FEEDBACK,BILZ
+"I need to send some feedback, how do I do it?",review,,,,,FEEDBACK,BCIL
+help leaving a comment for your company,review,,,,,FEEDBACK,BL
+product review,review,,,,,FEEDBACK,BK
+I call to write a review for your company,review,,,,,FEEDBACK,BL
+help me leaving an opinion about a product,review,,,,,FEEDBACK,BL
+i want help to submit some feedback about ur services,review,,,,,FEEDBACK,BLQ
+ya have a way to leave some feedback for ur products,review,,,,,FEEDBACK,BILQ
+i want help to write a review,review,,,,,FEEDBACK,BLQ
+wanna rwite a review for a service how can i do it,review,,,,,FEEDBACK,BCILQZ
+I don't know what to do to leave a review for your services,review,,,,,FEEDBACK,B
+I want assistance writing an opinion about your products,review,,,,,FEEDBACK,BL
+is it possible to write an opinion,review,,,,,FEEDBACK,BILQ
+how to send some feedback about a service,review,,,,,FEEDBACK,BILQ
+can you help me to send feedback about your company?,review,,,,,FEEDBACK,BIL
+is there a section to send a review?,review,,,,,FEEDBACK,BIL
+leaving review for a service,review,,,,,FEEDBACK,BK
+i have gotr to send some feedback can uhelp me,review,,,,,FEEDBACK,BCILQZ
+i dont know how i can send feedback about ur products,review,,,,,FEEDBACK,BLQ
+wanna writ a review about a service how can i do it,review,,,,,FEEDBACK,BCILQZ
+review for a service,review,,,,,FEEDBACK,BK
+could uhelp me submitting some feedback about ur services,review,,,,,FEEDBACK,BILPQ
+I need assistance sending my feedback for your company,review,,,,,FEEDBACK,BL
+I want to leave a review about a product,review,,,,,FEEDBACK,BL
+do you have a method to send a review?,review,,,,,FEEDBACK,BIL
+I am calling to send feedback about a service,review,,,,,FEEDBACK,BL
+I have to send feedback,review,,,,,FEEDBACK,BL
+"I want to write a comment for a service, I need assistance",review,,,,,FEEDBACK,BCL
+what do i need to do to send my feedback,review,,,,,FEEDBACK,BILQ
+I don't know what to do to write a comment baout a service,review,,,,,FEEDBACK,BLZ
+need assistance to leave feedback for ur compnay,review,,,,,FEEDBACK,BLQZ
+I want assistance setting a shipping address up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+I have errors setting my delivery address up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+"I have to enter a shipping address, could you help me?",set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCILP
+assistance submitting  another delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLZ
+can uhelp me setting the delpivery address up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BILQZ
+"I have to enter the new shipping address, I need assistance",set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCL
+i have to submit my delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLQ
+assistanceto enter the delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLZ
+can you help me enter a new delivery address?,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BIL
+I do not know how I can set up the shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BEL
+I have to submit another bloody delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLW
+"I have to submit a new shipping address, how to do it?",set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCIL
+i want help setting a delivery address up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLQ
+need to set up the shipping address help me,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCLQ
+help me setting up my secondary delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+what do I need to do to enter my secondary shipping address?,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BIL
+would it be possible to submit my new shipping address?,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BILP
+"the secondary delivery address isn't valid, how do I do it?",set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCIL
+I need help entering another shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+can uhelp me to submit a shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BILQ
+I have issues usbmitting the new shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLMZ
+"I have to submit a shipping address, can you help me?",set_up_shipping_address,,,,,SHIPPING_ADDRESS,BCIL
+setting up new shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BK
+help me to set up the shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+i want assistance setting up my delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLQ
+trouble submitting a delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+I want help setting up my secondary shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+i haveto set a secondary delivery address up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLQZ
+why I cannot set a delivery address valid up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BEL
+there are troubles submitting another shipping address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLM
+I need help setting a secondary shipping addres up,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BLZ
+can I set my secondary shipping address up?,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BIL
+there is an issue setting up a secondary delivery address,set_up_shipping_address,,,,,SHIPPING_ADDRESS,BL
+wanna switch to the Gold account help me,switch_account,account_type,Gold,20,24,ACCOUNT,BCQ
+using Pro account,switch_account,account_type,Pro,6,9,ACCOUNT,BK
+switching to Platinum account,switch_account,account_type,Platinum,13,21,ACCOUNT,BK
+switching to Gold account,switch_account,account_type,Gold,13,17,ACCOUNT,BK
+can I use the Freemium account?,switch_account,account_type,Freemium,14,22,ACCOUNT,BI
+switch to Gold account,switch_account,account_type,Gold,10,14,ACCOUNT,BK
+how to change to the Gold account?,switch_account,account_type,Gold,21,25,ACCOUNT,BIL
+i cannot change  to the Premium account,switch_account,account_type,Premium,24,31,ACCOUNT,BELNQZ
+switch to platinum account,switch_account,account_type,Platinum,10,18,ACCOUNT,BK
+i have got to change to the Premium account,switch_account,account_type,Premium,28,35,ACCOUNT,BLQ
+use gold account,switch_account,account_type,Gold,4,8,ACCOUNT,BK
+where to change to the Platinum account?,switch_account,account_type,Platinum,23,31,ACCOUNT,BIL
+"I need to use the Premium profile, how could I do it?",switch_account,account_type,Premium,18,25,ACCOUNT,BCILP
+i dont know what i need to do to change to the pro account,switch_account,account_type,Pro,47,50,ACCOUNT,BLQ
+wanna use the Platinum profile,switch_account,account_type,Platinum,14,22,ACCOUNT,BLQ
+how to change to the standard account,switch_account,account_type,Standard,21,29,ACCOUNT,BILQ
+changing to premium account,switch_account,account_type,Premium,12,19,ACCOUNT,BKL
+i dont know what i need to do to change to the gold account,switch_account,account_type,Gold,47,51,ACCOUNT,BLQ
+help me to use the premium profile,switch_account,account_type,Premium,19,26,ACCOUNT,BL
+how do i use the Platinum profile,switch_account,account_type,Platinum,17,25,ACCOUNT,BILQ
+switch to Platinum account,switch_account,account_type,Platinum,10,18,ACCOUNT,BK
+what do I need to do to use the pro profile?,switch_account,account_type,Pro,32,35,ACCOUNT,BIL
+how to change to the standard account?,switch_account,account_type,Standard,21,29,ACCOUNT,BIL
+I have got to change to the standard account,switch_account,account_type,Standard,28,36,ACCOUNT,BL
+help using the Gold account,switch_account,account_type,Gold,15,19,ACCOUNT,B
+using another account,switch_account,,,,,ACCOUNT,BK
+"I have to use the free accoun, can I get some help?",switch_account,account_type,free,18,22,ACCOUNT,BCIZ
+whatr is purchase 00004587345 status,track_order,order_id,00004587345,18,29,ORDER,BILQZ
+see order 113542617735902 current status,track_order,order_id,113542617735902,10,25,ORDER,BL
+track purchase 00123842,track_order,order_id,00123842,15,23,ORDER,BL
+i need help seeing purchase 732201349959 current status,track_order,order_id,732201349959,28,40,ORDER,BLQ
+want assistance to check the ETA of order 370795561790,track_order,order_id,370795561790,42,54,ORDER,BQ
+need to see purchase 370795561790 damn status how to do it,track_order,order_id,370795561790,21,33,ORDER,BCILQW
+see the ETA of the order 00004587345,track_order,order_id,00004587345,25,36,ORDER,BL
+can ya help me check the current status of purchase 00123842,track_order,order_id,00123842,52,60,ORDER,BILQ
+is it possible to see the ETA of the purchase 732201349959?,track_order,order_id,732201349959,46,58,ORDER,BIL
+ETA of order 00123842,track_order,order_id,00123842,13,21,ORDER,BK
+purchase 00004587345 status,track_order,order_id,00004587345,9,20,ORDER,BKL
+I want help seeing the status of purchase 370795561790,track_order,order_id,370795561790,42,54,ORDER,BL
+check status of order 732201349959,track_order,order_id,732201349959,22,34,ORDER,BK
+checking ETA of order 732201349959,track_order,order_id,732201349959,22,34,ORDER,BK
+i have to check the eta of the order 732201349959,track_order,order_id,732201349959,37,49,ORDER,BQ
+what is order 00004587345 current status?,track_order,order_id,00004587345,14,25,ORDER,BIL
+tracking order 732201349959,track_order,order_id,732201349959,15,27,ORDER,BK
+ETA of order 732201349959,track_order,order_id,732201349959,13,25,ORDER,BK
+i want help seeing purchase 113542617735902 status,track_order,order_id,113542617735902,28,43,ORDER,BLQ
+I cannot checkthe damn ETA of the order 00004587345,track_order,order_id,00004587345,40,51,ORDER,BENWZ
+can you help me checking the ETA of the purchase 00123842?,track_order,order_id,00123842,49,57,ORDER,BIL
+I want help to track order 113542617735902,track_order,order_id,113542617735902,27,42,ORDER,B
+I need to check the ETA of the purchase 732201349959,track_order,order_id,732201349959,40,52,ORDER,BL
+assistance seeing the eta of the order 00123842,track_order,order_id,00123842,39,47,ORDER,BLQ
+check ETA of order 00123842,track_order,order_id,00123842,19,27,ORDER,BK
+help me to check the TEA of the order 113542617735902,track_order,order_id,113542617735902,38,53,ORDER,BLQZ
+locating order 00123842,track_order,order_id,00123842,15,23,ORDER,BKL
+how could I check the ETA of purchase 113542617735902?,track_order,order_id,113542617735902,38,53,ORDER,BILP
+assistance seeing purchase 00004587345 current status,track_order,order_id,00004587345,27,38,ORDER,BL
+checking ETA of order 00004587345,track_order,order_id,00004587345,22,33,ORDER,BK
+order 370795561790 current status,track_order,order_id,370795561790,6,18,ORDER,BKL
+I'm trying to track purchase 00123842,track_order,order_id,00123842,29,37,ORDER,BLQ
+I'm waitring for a rebate of $350 was it processed,track_refund,refund_amount,350,30,33,REFUND,BCLQZ
+could I check if there are any updates on the refund?,track_refund,,,,,REFUND,BIMP
+I am waiting for a reimbursement of 160 dollars,track_refund,refund_amount,160,36,39,REFUND,BL
+I expect a refund of 1200 dollars,track_refund,refund_amount,1200,21,25,REFUND,B
+I am waiting for a compensation of $299,track_refund,refund_amount,299,36,39,REFUND,BL
+i expect a rewbate of 299 dollars,track_refund,refund_amount,299,22,25,REFUND,BLQZ
+I'm waiting for a restitution of $1499,track_refund,refund_amount,1499,34,38,REFUND,BLQ
+I expect a rebate of 350 dollars,track_refund,refund_amount,350,21,24,REFUND,BL
+I am waiting for a rebate of $1200,track_refund,refund_amount,1200,30,34,REFUND,BL
+I'm waiting for a reimbursement fo 350 dollars,track_refund,refund_amount,350,35,38,REFUND,BLQZ
+I'm waiting for a restitutin of 299 dollars,track_refund,refund_amount,299,32,35,REFUND,BLQZ
+"I expect a goddamn restitution of $350, was it processed",track_refund,refund_amount,350,35,38,REFUND,BCLW
+I'm waiting for a compensation of 1200 dollars,track_refund,refund_amount,1200,34,38,REFUND,BLQ
+track refund,track_refund,,,,,REFUND,BK
+I expect a goddamn reimbursement of $160,track_refund,refund_amount,160,37,40,REFUND,BLW
+tracking refund,track_refund,,,,,REFUND,BK
+I'm waiting for an restitution of $350,track_refund,refund_amount,350,35,38,REFUND,BLQZ
+I'm waiting for a compesation of 1499 dollars,track_refund,refund_amount,1499,33,37,REFUND,BLQZ
+hoe could I check my rebate status?,track_refund,,,,,REFUND,BILPZ
+I expect a damn rebate of $1499,track_refund,refund_amount,1499,27,31,REFUND,BLW
+I'm waiting for a reimbursement of 350 dollars,track_refund,refund_amount,350,35,38,REFUND,BLQ
+"I expect a rebate of 160 dollars, has it been processed?",track_refund,refund_amount,160,21,24,REFUND,BCIL
+I'm waiting for a rebate of $299,track_refund,refund_amount,299,29,32,REFUND,BLQ
+I am waiting for a reimbursement of 1200 dollars,track_refund,refund_amount,1200,36,40,REFUND,BL
+status of refund,track_refund,,,,,REFUND,BK
+I expect a refund of 350 dollars,track_refund,refund_amount,350,21,24,REFUND,B
