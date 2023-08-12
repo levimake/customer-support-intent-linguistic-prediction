@@ -52,4 +52,4 @@ Here is a sample row of the dataset in JSON form (for readability; the original 
 ```
 
 - Intents - Multiclass - One among {cancel_order, check_invoice, check_refund_policy, ...}
-- Tags - Multilabel - {Q, P, W, K, B, C, I, M, L, E, Z}
+- [Tags](../data/TAGS.md) - Multilabel - {Q, P, W, K, B, C, I, M, L, E, Z}
