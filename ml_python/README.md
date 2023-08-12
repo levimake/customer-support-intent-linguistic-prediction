@@ -37,4 +37,19 @@ The neural network then uses the output of the softmax function to make a predic
 The sigmoid function is a good choice for multilabel classification because it can output probabilities for multiple labels. This is important in multilabel classification, because a data point can belong to multiple labels at the same time. For example, a piece of text could be both "positive" and "negative". The sigmoid function allows the neural network to capture this nuance by outputting probabilities for both labels.
 
 # 2. [Dataset](../data)
+The dataset covers "Customer Support" domain and contains customer utterances, customer_intent, category and linguistic tags. (Over 8000 utterances and 27 most common intents grouped in 11 categories).
 
+The dataset will be pre-processed by keeping only the columns: Utterance, Intent, tags(language)
+
+Here is a sample row of the dataset in JSON form (for readability; the original dataset is in csv):
+
+```
+{
+    "utterance": "i have bought the same item twice cancel order 00123842",
+    "intent": "cancel_order",
+    "tags": "BCELQ"
+}
+```
+
+- Intents - Multiclass - One among {cancel_order, check_invoice, check_refund_policy, ...}
+- Tags - Multilabel - {Q, P, W, K, B, C, I, M, L, E, Z}
