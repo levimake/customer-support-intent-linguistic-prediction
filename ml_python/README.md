@@ -34,3 +34,7 @@ Let's say we have a neural network that is trained to classify images of animals
 The neural network then uses the output of the softmax function to make a prediction. The class with the highest probability is the class that the neural network predicts the input image to belong to. In this example, the neural network would predict that the input image is a cat.
 
 #### 1.3.2 Sigmoid
+The sigmoid function is a good choice for multilabel classification because it can output probabilities for multiple labels. This is important in multilabel classification, because a data point can belong to multiple labels at the same time. For example, a piece of text could be both "positive" and "negative". The sigmoid function allows the neural network to capture this nuance by outputting probabilities for both labels.
+
+# 2. [Dataset](../data)
+
