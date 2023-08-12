@@ -55,3 +55,10 @@ Here is a sample row of the dataset in JSON form (for readability; the original 
 - [Tags](../data/TAGS.md) - Multilabel - {Q, P, W, K, B, C, I, M, L, E, Z}
 
 ## 2.1 [Dataset Distribution](./data_distribution.ipynb)
+
+## 2.2 Goal
+- Predict the customer intent - a single class - multiclass classification on 19 classes.  
+- Predict the linguists - a list (can be empty) - multilable classification problem on 11 classes. <--TODO: Simplify it due to bad data distribution
+
+For more information on the process, please refer to the [notebook](./model_creation.ipynb)
+
