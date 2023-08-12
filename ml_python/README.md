@@ -63,5 +63,7 @@ Here is a sample row of the dataset in JSON form (for readability; the original 
 For more information on the process, please refer to the [notebook](./model_creation.ipynb)
 
 # 3. References
-[https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc](https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc)
+- Multiclass and Multilabel Text Classification in One BERT Model - [https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc](https://lajavaness.medium.com/multiclass-and-multilabel-text-classification-in-one-bert-model-95c54aab59dc)
+- Fine Tuning DistilBERT for MultiLabel Text Classification: [https://colab.research.google.com/github/DhavalTaunk08/Transformers_scripts/blob/master/Transformers_multilabel_distilbert.ipynb](https://colab.research.google.com/github/DhavalTaunk08/Transformers_scripts/blob/master/Transformers_multilabel_distilbert.ipynb)
+- Fine Tuning Transformer for MultiClass Text Classification: [https://colab.research.google.com/github/abhimishra91/transformers-tutorials/blob/master/transformers_multiclass_classification.ipynb](https://colab.research.google.com/github/abhimishra91/transformers-tutorials/blob/master/transformers_multiclass_classification.ipynb)
 
