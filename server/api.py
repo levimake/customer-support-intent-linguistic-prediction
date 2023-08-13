@@ -9,6 +9,7 @@ from model import MyModel
 from fastapi.middleware.cors import CORSMiddleware
 
 import os
+import time
 #ML Model
 # Load the custom pretrained model
 

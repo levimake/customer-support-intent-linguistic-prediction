@@ -1,8 +1,10 @@
 import { useState } from "react";
 import axios from "axios";
 import agent_png from "../assets/call-center-service.png";
+import PropTypes from "prop-types";
 
 const Chatbox = () => {
+  
   const [messages, setMessages] = useState([]);
   const [inputValue, setInputValue] = useState("");
   const [messageSender, setMessageSender] = useState("user");
@@ -96,6 +98,31 @@ const Chatbox = () => {
     setChatEnded(true);
   };
 
+  const Message = ({ message, index }) => {
+    return (
+      <>
+        <div
+          key={index}
+          className={`max-w-md ${message.color} text-white
+                          ${
+                            message.sender === "user"
+                              ? "self-start"
+                              : "self-end"
+                          } rounded-lg p-2`}
+        >
+          {" "}
+          <p
+            className="max-w-1xl 
+                font-medium
+              text-slate-50 md:text-normal lg:text-normal dark:text-slate-50"
+          >
+            {message.content}
+          </p>
+        </div>
+      </>
+    );
+  };
+
   return (
     <div className="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6 bg-gray-700">
       <div className="items-center gap-8 lg:grid lg:grid-cols-1  xl:gap-16">
@@ -104,30 +131,16 @@ const Chatbox = () => {
         </h2>
       </div>
 
+      {/* MESSAGES */}
       <div className="p-4">
         <div className="flex flex-col space-y-4">
           {messages.map((message, index) => (
-            <div
-              key={index}
-              className={`max-w-md ${message.color} text-white
-                          ${
-                            message.sender === "user"
-                              ? "self-start"
-                              : "self-end"
-                          } rounded-lg p-2`}
-            >
-              <p
-                className="max-w-1xl 
-                font-medium
-              text-slate-50 md:text-normal lg:text-normal dark:text-slate-50"
-              >
-                {message.content}
-              </p>
-            </div>
+            <Message message={message} key={index} />
           ))}
         </div>
       </div>
 
+      {/* MESSAGE SENDING AREA */}
       <div className="p-4">
         <form onSubmit={handleInputSubmit}>
           <label className="sr-only">Your message</label>
@@ -278,3 +291,6 @@ const Chatbox = () => {
 };
 
 export default Chatbox;
+
+Chatbox.propTypes = { message: PropTypes.node.isRequired };
+Chatbox.propTypes = { index: PropTypes.node.isRequired };
