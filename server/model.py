@@ -33,13 +33,13 @@ class MyModel:
         # Generate the output
         # print(generate_outputs(preds))
 
-        return generate_outputs(preds)
+        return generate_outputs(preds, len(text))
 
 # Apply two logics for Multiclass Columns and Multilabel Columns
 def get_preds_from_logits(logits):
 
     INTENT_INDICES = range(0,19)
-    TAGS_INDICES   = range(19,30)
+    TAGS_INDICES   = range(19,24)
 
     ret = np.zeros(logits.shape)
 
@@ -64,7 +64,7 @@ def convert_to_title_case(input_string):
     
     return title_case
 
-def generate_outputs(preds):
+def generate_outputs(preds, text_len):
 
     # LABEL DICTIONARY
 
@@ -90,11 +90,16 @@ def generate_outputs(preds):
         18: 'track_refund'
     }
 
+    # apply random based scoring for issue complexity based on the customer intent
     intents_score_map = {0: 7, 1: 4, 2: 1, 3: 0, 4: 5, 5: 3, 6: 4, 7: 2, 8: 9, 9: 8, 10: 2, 
                                     11: 6, 12: 0, 13: 7, 14: 7, 15: 4, 16: 3, 17: 0, 18: 10}
 
-
-    tags_labels = np.array(['Q', 'P', 'W', 'K', 'B', 'C', 'I', 'M', 'L', 'E', 'Z'])
+    # P - Politeness
+    # W - Offensive content
+    # C - Cordinated Structure
+    # Q - Colloquial (Informal)
+    # Z - Typos, errors
+    tags_labels = np.array(['P', 'W', 'C', 'Q', 'Z'])
 
     intents_array = preds[0][:19]
     tags_array = preds[0][19:]
@@ -110,16 +115,17 @@ def generate_outputs(preds):
 
     utterance_category = convert_to_title_case(get_category(intent))
     intent = convert_to_title_case(intent)
-    issue_formality, language_complexity, content_complexity, language_score = get_linguistics(output_tag)
 
-    issue_complexity = get_issue_complexity(intent_complexity_score + language_score)
+    issue_formality, politeness, anger = get_linguistics(output_tag)
+
+    issue_complexity = get_issue_complexity(intent_complexity_score, anger, text_len)
 
     outputs = {
         "customer_intent": intent,
         "utterance_category": utterance_category,
         "language_formality": issue_formality,
-        "language_complexity": language_complexity,
-        "content_complexity": content_complexity,
+        "language_politeness": politeness,
+        "user_tone": anger,
         "issue_complexity": issue_complexity
     }
 
@@ -156,101 +162,61 @@ def get_category(intent):
 
 def get_linguistics(tag):
 
-    formality = get_formality(tag)
-    language_complexity, language_complexity_score = get_language_complexity(tag)
-    content_complexity,  content_complexity_score = get_content_complexity(tag)
+    print(tag)
 
-    total_language_score = language_complexity_score + content_complexity_score
+    formality_score, formality = 0, "informal"
+    politeness_score, politeness = 1, "polite"
+    anger_score, anger = 0, "neutral"
 
-    return formality, language_complexity, content_complexity, total_language_score
-    
-def get_formality(tags):
-    """Predicts the formality of an utterance based on the tags "P" and "Q".
-
-    Args:
-        tags: A list of tags.
-
-    Returns:
-        A string indicating the formality of the utterance.
-    """
-
-    if "P" in tags and "Q" in tags:
-        # The utterance is both polite and colloquial.
-        formality = "mixed" #
-    elif "P" in tags:
-        # The utterance is polite.
-        formality = "formal" 
-    elif "Q" in tags:
-        # The utterance is colloquial.
-        formality = "informal"
-    else:
-        # The utterance is neither polite nor colloquial.
-        formality = "unknown"
-
-    return formality
-
-def get_language_complexity(tags):
-    """Analyzes the complexity of an utterance based on the linguistic tags.
-
-    Args:
-        tags: A list of linguistic tags.
-
-    Returns:
-        A string indicating the complexity of the utterance.
-    """
-
-    complexity = "low"
-    score = 0
-
-    for tag in tags:
-        if tag == "B" :
-            score += 1
-        elif tag == "I" or tag == "C":
-            score += 2
-        elif tag == "M" or tag == "L":
-            score += 3
-        elif tag == "E":
-            score += 4
-
-    if score >= 10:
-        complexity = "high"
-    elif score >= 4 and score <= 7:
-        complexity = "medium"
-    else:
-        complexity = "low"
-
-    return complexity, score
-
-def get_content_complexity(tags):
-
-    complexity = "low"
-    score = 0
-    for tag in tags:
-        if tag == "W":
-            score += 5
-        elif tag == "K":
-            score += 5
-
-    if score == 10:
-        complexity = "high"
-    elif score == 5:
-        complexity = "medium"
-    else:
-        complexity = "low"
-
-    return complexity, score
-
-def get_issue_complexity(score):
-
-    perc = ( score / 30 ) * 100
-
-    if perc > 80:
-        return "high"
-    elif perc > 50:
-        return "medium"
-    else :
-        return "low"
+    if tag != "":
+        if tag in 'P': #polite
+            formality_score += 1
+            politeness_score += 1
         
-# content-complexity - max - 10
-# language-complexity - max - 10
-# language-formality - not considered for score
+        if tag in 'W': #offensive
+            politeness_score -= 1
+            formality_score -= 1
+            anger_score += 1
+
+        if tag in 'C': #cordinated
+            formality_score += 1
+
+        if tag in 'Q': #colloquial
+            formality_score -= 1
+
+        if tag in 'Z': #typos, errors
+            formality_score -= 1
+
+        if formality_score > 0 :
+            formality = "formal"
+
+        if politeness_score == 0 :
+            politeness = "impolite"
+
+        if anger_score > 0:
+            anger = "frustrated"
+    
+
+    return formality, politeness, anger
+
+# issue complexity is calculated based on the utterance length and the intent score
+# if the user is frustrated, the issue is directly tagged as a high priority issue
+def get_issue_complexity(score, anger, text_len):
+
+    length_score = (text_len / 128) * 100
+    
+    perc = ( score / 10 ) * 100
+
+    final_perc = ((length_score + perc)/200) * 100
+
+    complexity = "low"
+
+    if final_perc > 40:
+        complexity = "medium"
+        if final_perc > 70:
+            complexity = "high"
+
+    if anger == "frustrated":
+        complexity = "high"
+
+    return complexity

@@ -42,9 +42,9 @@ class UtteranceResponse(BaseModel):
 
     language_formality: str
 
-    language_complexity: str
+    communication_style: str
 
-    content_complexity: str
+    language_tone: str
 
     issue_complexity: str
 
@@ -80,9 +80,9 @@ def predict(request: CustomerUtterance):
 
         language_formality = outputs["language_formality"],
 
-        language_complexity = outputs["language_complexity"],
+        communication_style = outputs["language_politeness"],
 
-        content_complexity = outputs["content_complexity"],
+        language_tone = outputs["user_tone"],
 
         issue_complexity = outputs["issue_complexity"]
  

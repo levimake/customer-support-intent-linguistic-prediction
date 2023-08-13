@@ -54,6 +54,41 @@ Here is a sample row of the dataset in JSON form (for readability; the original 
 - Intents - Multiclass - One among {cancel_order, check_invoice, check_refund_policy, ...}
 - [Tags](../data/TAGS.md) - Multilabel - {Q, P, W, K, B, C, I, M, L, E, Z}
 
+- Additional Modification on Tags: For the current task, we are using only the following tags:
+    - P (Politeness)
+    - W (Offensive Content)
+    - C (Cordinated Structure)
+    - Q (Colloquial Style)
+    - Z (Errors)
+
+- If the tags are empty, utterance is considered informal and polite.
+
+- Formality of the language is calculated as follows:
+    - Initially, formality is set to 0
+    - If P, formality += 1
+    - If W, formality -= 1
+    - If C, formality += 1
+    - If Q, formality -= 1
+    - If Z, formality -= 1
+    - If the final formality score is greater than 0, the utterance is considered formal. Else, informal.
+
+- Language Tone is calculated as follows:
+    - Initially set to "neutral"
+    - If W, tone = "frustrated"
+
+- Communication style is calculated as follows:
+    - Initially set to polite
+    - If W, politeness -= 1
+    - If politeness_score = 0, impolite
+    - If politeness_score > 0, polite
+
+- Issue complexity is calculated as follows:
+    - Random scoring is performed on all intents from 0 to 10 to assign to random scores where the highest score refers to higher issue complexity.
+    - Utterance length is also considered for calculating issue complexity. (The max_len of utterance = 128)
+    - Therefore, a percentile score is calculated from the intent_score and utterance_length.
+    - The values {high, medium, low} is assigned based on the final score.
+    - If the utterance contained offensive content, issue is automatically promoted as a higher priority issue as offensive content in an utterance refers to a frustrated customer who requires a faster resolution for maintaining the customer satisfaction.
+
 ## 2.1 [Dataset Distribution](./data_distribution.ipynb)
 
 ## 2.2 Goal

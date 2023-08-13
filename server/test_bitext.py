@@ -11,4 +11,4 @@ model_path = os.path.join(parent_dir, 'models')
 
 model = MyModel(model_path)
 
-model.predict("can you cancel my order 12124235")
+model.predict("I need help cancelling my order.")
