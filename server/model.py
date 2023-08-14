@@ -7,7 +7,7 @@ class MyModel:
 
     def __init__(self, model_path):
         # Set the device
-        device = 'cuda' if cuda.is_available() else 'cpu'
+        self.device = 'cuda' if cuda.is_available() else 'cpu'
         # Load the model
         self.model = model = DistilBertForSequenceClassification.from_pretrained(model_path)
         # Load the tokenizer
@@ -22,7 +22,7 @@ class MyModel:
                           truncation=True,
                           padding="max_length",
                           max_length=128,
-                          return_tensors='pt').to('cuda')
+                          return_tensors='pt').to(self.device)
 
         # Call the model to predict under the format of logits of 30 classes
         logits = self.model(**encoded_input).logits.cpu().detach().numpy()
