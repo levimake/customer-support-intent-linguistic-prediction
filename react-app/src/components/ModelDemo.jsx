@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import PerfomanceBar from "./ChatComponents/PerfomanceBar";
 
 function Demo() {
   const [query, setQuery] = useState("");
@@ -122,7 +123,7 @@ function Demo() {
                                 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800
                                 capitalize"
                   >
-                    {isLoading && (
+                    {isLoading && !isError && (
                       <>
                         <svg
                           aria-hidden="true"
@@ -144,7 +145,7 @@ function Demo() {
                         Loading...
                       </>
                     )}
-                    {!isLoading && <>Send Your Query</>}
+                    {!isLoading && !isError && <>Send Your Query</>}
                     {isError && <> Error!</>}
                   </button>
                 </div>
@@ -156,133 +157,41 @@ function Demo() {
             {/* If prediction response is received from API server, display*/}
             {prediction && (
               <>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Language Tone
-                  </h3>
-                  <p
-                    className={`text-white
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:ring-4
-                             focus:ring-purple-300
-                             font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                             dark:${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:outline-none
-                             dark:focus:ring-purple-800
-                             capitalize`}
-                  >
-                    {prediction.language_tone}
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Customer Intent
-                  </h3>
-                  <p
-                    className={`text-white
-                            ${handlePredictionColor(
-                              prediction.issue_complexity
-                            )} hover:bg-opacity-85
-                            focus:ring-4
-                            focus:ring-purple-300
-                            font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                            dark:${handlePredictionColor(
-                              prediction.issue_complexity
-                            )} hover:bg-opacity-85 
-                            focus:outline-none dark:focus:ring-purple-800
-                            capitalize`}
-                  >
-                    {prediction.customer_intent}
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Communication Style
-                  </h3>
-                  <p
-                    className={`text-white
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:ring-4
-                             focus:ring-purple-300
-                             font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85 
-                             focus:outline-none dark:focus:ring-purple-800
-                             capitalize`}
-                  >
-                    {prediction.communication_style}
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Language Formality
-                  </h3>
-                  <p
-                    className={`text-white
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:ring-4
-                             focus:ring-purple-300
-                             font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85 
-                             focus:outline-none dark:focus:ring-purple-800
-                             capitalize`}
-                  >
-                    {prediction.language_formality}
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Issue Category
-                  </h3>
-                  <p
-                    className={`text-white
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:ring-4
-                             focus:ring-purple-300
-                             font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85 
-                             focus:outline-none dark:focus:ring-purple-800
-                             capitalize`}
-                  >
-                    {prediction.utterance_category}
-                  </p>
-                </div>
-                <div>
-                  <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                    Issue Complexity
-                  </h3>
-                  <p
-                    className={`text-white
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85
-                             focus:ring-4
-                             focus:ring-purple-300
-                             font-bold rounded-lg text-bs px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0
-                             ${handlePredictionColor(
-                               prediction.issue_complexity
-                             )} hover:bg-opacity-85 
-                             focus:outline-none dark:focus:ring-purple-800
-                             capitalize`}
-                  >
-                    {prediction.issue_complexity}
-                  </p>
-                </div>
+                <PerfomanceBar
+                  header="Language Tone"
+                  value={prediction.language_tone}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
+
+                <PerfomanceBar
+                  header="Customer Intent"
+                  value={prediction.customer_intent}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
+
+                <PerfomanceBar
+                  header="Communication Style"
+                  value={prediction.communication_style}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
+
+                <PerfomanceBar
+                  header="Language Formality"
+                  value={prediction.language_formality}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
+
+                <PerfomanceBar
+                  header="Issue Category"
+                  value={prediction.utterance_category}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
+
+                <PerfomanceBar
+                  header="Issue Complexity"
+                  value={prediction.issue_complexity}
+                  color={handlePredictionColor(prediction.issue_complexity)}
+                />
               </>
             )}
           </div>
