@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function Demo() {
   const [query, setQuery] = useState("");
@@ -17,6 +18,7 @@ function Demo() {
 
     try {
       setIsLoading(true);
+      setError(false);
       const url = "http://localhost:8000/predict";
       const body = { text: query };
       const response = await axios.post(url, body);
@@ -297,7 +299,9 @@ function Demo() {
                   The issue requires a customer representative who
                   {agentDescription(prediction.issue_complexity)}
                 </p>
-                <a href="/chat">
+                {/* <a href="/chat"> */}
+
+                <Link to="/chat" state={[prediction, query]}>
                   <button
                     className={`text-white
                              ${handlePredictionColor(
@@ -313,7 +317,8 @@ function Demo() {
                   >
                     Connect with the agent
                   </button>
-                </a>
+                </Link>
+                {/* </a> */}
               </div>
             </>
           )}

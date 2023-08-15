@@ -25,7 +25,8 @@ Currently, two official plugins are available:
 # References:
 - [Layout Component and why we use it in React](https://dev.to/olenadrugalya/layout-component-and-why-we-use-it-in-react-d8b)
 - [How to Setup React and Tailwind CSS with Vite in a Project](https://www.freecodecamp.org/news/how-to-install-tailwindcss-in-react)
-
+- [Passing data states through react router](https://dev.to/thatfemicode/passing-data-states-through-react-router-8dh)
+- [Learn React Hooks: useEffect - Simply Explained!](https://www.youtube.com/watch?v=-4XpG5_Lj_o)
 # Todo:
 - [ ] Abstract Hooks: [https://dev.to/darkmavis1980/fetching-data-with-react-hooks-and-axios-114h](https://dev.to/darkmavis1980/fetching-data-with-react-hooks-and-axios-114h)
 - [ ] Use UseFetch - React Custom Hook - [https://dev.to/techcheck/custom-react-hook-usefetch-eid](https://dev.to/techcheck/custom-react-hook-usefetch-eid)

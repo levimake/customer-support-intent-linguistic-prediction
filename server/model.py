@@ -12,7 +12,7 @@ class MyModel:
         self.model = model = DistilBertForSequenceClassification.from_pretrained(model_path)
         # Load the tokenizer
         self.tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
-        self.model = model.to(device)
+        self.model = model.to(self.device)
         
 
     def predict(self, text):
